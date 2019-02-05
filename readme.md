@@ -3,5 +3,6 @@
 
 # Todo
 repository 作成  
-git 設定  
-readme.md  
+git 設定 
+node.js 
+readme.md
