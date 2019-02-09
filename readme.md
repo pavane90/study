@@ -2,4 +2,4 @@
 このレポジトリーは個人的に学んでいることのまとめです。
 
 # Today I Learned
-- Apache Jmeter
+- git
