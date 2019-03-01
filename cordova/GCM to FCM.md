@@ -16,3 +16,20 @@
 ```
 
 > ***Note***: No changes on the back-end side are needed: even though recommended, it isn't yet required and sending messages through GCM gateway should work just fine.
+
+***
+# phonegap-plugin-push migrate 1.x to 2.x
+
+> ['Read This'](https://developers.google.com/cloud-messaging/android/android-migrate-fcm) As of April 10, 2018, Google has deprecated GCM. The GCM server and client APIs are deprecated and will be removed as soon as April 11, 2019. Migrate GCM apps to Firebase Cloud Messaging (FCM), which inherits the reliable and scalable GCM infrastructure, plus many new features. See the migration guide to learn more.
+
+
+phonegap-plugin-push 1.x는 GCM용이고 2.x는 FCM용이기 때문에 업그레이드를 하지 않으면 2019년 4월 11일부터 GCM게이트를 통한 Push가 이용 불가능해질 가능성이 있다.
+
+```bash
+> ionic cordova plugin rm phonegap-plugin-push
+> ionic cordova plugin add phonegap-plugin-push@2.0.0 (or lastest)
+> ionic cordova platform rm android
+> ionic cordova platform add android@6.2.1 (or lastest)
+> ionic cordova build android
+> ionic cordova run android
+```
