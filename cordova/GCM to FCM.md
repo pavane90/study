@@ -33,3 +33,10 @@ phonegap-plugin-push 1.x는 GCM용이고 2.x는 FCM용이기 때문에 업그레
 > ionic cordova build android
 > ionic cordova run android
 ```
+
+# phonegap-plugin-pushがparseされない
+```bash
+AndroidRuntime: android.content.res.Resources$NotFoundException: String resource ID #0x0”
+```
+> https://github.com/phonegap/phonegap-plugin-push/issues/1800
+
