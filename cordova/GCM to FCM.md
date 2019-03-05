@@ -40,3 +40,8 @@ AndroidRuntime: android.content.res.Resources$NotFoundException: String resource
 ```
 > https://github.com/phonegap/phonegap-plugin-push/issues/1800
 
+
+# メモ
+https://stackoverflow.com/questions/37861231/how-can-i-implement-ionic-io-push-notifications-on-android  
+
+https://codesundar.com/phonegap-plugin-push/
