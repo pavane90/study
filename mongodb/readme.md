@@ -40,3 +40,30 @@ dumpしたデータのrestoreしたデータのpasswordが異なる場合、admi
 > use [db名]
 > db.addUser("[ユーザ名]","[パスワード]");
 > exit</code></pre>
+
+# コレクションインデックスの確認
+
+[[MongoDB] 강좌 6편 Index 설정](https://velopert.com/560)
+
+## index 作成
+**1は昇順, -1は降順**
+```bash
+db.COLLECTION.createIndex({KEY:1})
+```
+**Single field index**
+```bash
+db.report.createIndex( { score: 1 } )
+```
+**Multi field index**
+```bash
+db.report.createIndex( { age: 1, score: -1} )
+```
+
+## index 確認
+```bash
+db.collection.getindexes()
+```
+## index 削除
+```bash
+db.collection.dropindex()
+```
