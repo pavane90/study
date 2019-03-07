@@ -45,3 +45,21 @@ AndroidRuntime: android.content.res.Resources$NotFoundException: String resource
 https://stackoverflow.com/questions/37861231/how-can-i-implement-ionic-io-push-notifications-on-android  
 
 https://codesundar.com/phonegap-plugin-push/
+
+# :processDebugGoogleServices がスキップされた
+
+play-services-gcmを使っているプラグインが複数存在する場合、gradleのバージョンが合わなくなるため、正しいバージョンを指定する必要がある。
+
+主に、facebook, google+, notifications, crosswalk, google mapsでこの問題が発生するぽい
+
+#### com.adjust.sdk@4.10.1	
+    cordova.system.library.1=com.google.android.gms:play-services-analytics:+
+#### com.cmackay.plugins.googleanalytics@0.1.22	
+	cordova.system.library.2=com.google.android.gms:play-services-analytics:+
+#### cordova-plugin-android-idfa@1.0.4	
+	cordova.system.library.6=com.google.android.gms:play-services-ads:+
+#### cordova.plugins.diagnostic@3.1.5	
+	cordova.system.library.7=com.android.support:support-v4:+
+	cordova.system.library.8=com.android.support:appcompat-v7:+
+#### de.appplant.cordova.plugin.local-notification@0.8.5	
+	cordova.system.library.7=com.android.support:support-v4:+
