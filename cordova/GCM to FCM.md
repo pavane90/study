@@ -63,3 +63,14 @@ play-services-gcmを使っているプラグインが複数存在する場合、
 	cordova.system.library.8=com.android.support:appcompat-v7:+
 #### de.appplant.cordova.plugin.local-notification@0.8.5	
 	cordova.system.library.7=com.android.support:support-v4:+
+
+# 解決策
+原因はプラグインレベルの*build.gradle*とプロジェクトレベルの*build.gradle*が合わなくてコンパイルをスキップすることが原因ぽい（なぜログに表示されないのかは不明・・・）
+
+1. platforms > android > phonegap-plugin-push/WePage-push.gradleを開く
+2. *classpath 'com.google.gms:google-services:3.0.0'* と *apply plugin: com.google.gms.googleservices.GoogleServicesPlugin* 行を削除して保存
+3. platforms > android > build.gradle の34行目に *classpath 'com.google.gms:google-services:3.2.1'* を追加
+4. build.gradle の最後に *apply plugin: 'com.google.gms.google-services'* を追加
+**これで怒られたので以下を修正**
+5. platforms > android > project.properties の*cordova.system.library.5=com.google.firebase:firebase-messaging:11.0.1* を*11.0.4* に指定した(ログで交換性があるバージョンが11.0.4で表示されていたため)
+6. ionic build androidするとパーシングがうまく始まる、FCMコンソールでも端末が登録されていることが確認できた
