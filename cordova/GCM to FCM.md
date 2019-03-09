@@ -67,7 +67,7 @@ play-services-gcmを使っているプラグインが複数存在する場合、
 # 解決策
 原因はプラグインレベルの*build.gradle*とプロジェクトレベルの*build.gradle*が合わなくてコンパイルをスキップすることが原因ぽい（なぜログに表示されないのかは不明・・・）
 
-1. platforms > android > phonegap-plugin-push/WePage-push.gradleを開く
+1. platforms > android > phonegap-plugin-push/XXXXXXX-push.gradleを開く
 2. *classpath 'com.google.gms:google-services:3.0.0'* と *apply plugin: com.google.gms.googleservices.GoogleServicesPlugin* 行を削除して保存
 3. platforms > android > build.gradle の34行目に *classpath 'com.google.gms:google-services:3.2.1'* を追加
 4. build.gradle の最後に *apply plugin: 'com.google.gms.google-services'* を追加
