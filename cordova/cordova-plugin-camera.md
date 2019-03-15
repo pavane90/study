@@ -39,9 +39,9 @@ https://github.com/apache/cordova-plugin-camera/issues/416
 https://github.com/apache/cordova-plugin-camera/issues/373
 
 ## 解決
-ionic plugin remove --force cordova-plugin-camera
-ionic plugin remove --force cordova-plugin-compat
-ionic plugin add cordova-plugin-compat@1.1.0
-ionic platform remove android
-ionic platform add android@6.2.1
-ionic plugin add cordova-plugin-camera@2.3.1
+ionic plugin remove --force cordova-plugin-camera  
+ionic plugin remove --force cordova-plugin-compat  
+ionic plugin add cordova-plugin-compat@1.1.0  
+ionic platform remove android  
+ionic platform add android@6.2.1  
+ionic plugin add cordova-plugin-camera@2.3.1  
