@@ -67,3 +67,6 @@ db.collection.getindexes()
 ```bash
 db.collection.dropindex()
 ```
+
+# Update
+[[MongoDB] 강좌 5편 Document 수정 – update() 메소드](https://velopert.com/545)
