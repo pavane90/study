@@ -70,3 +70,11 @@ db.collection.dropindex()
 
 # Update
 [[MongoDB] 강좌 5편 Document 수정 – update() 메소드](https://velopert.com/545)
+
+# mongoexport 에서 isodate 사용
+
+> mongoexport queries require the use of strict-mode MongoDB extended JSON
+
+```bash
+mongoexport.exe -h *MYHOST* -p *MYPORT* -q "{ 'time' : { '$gte' : { '$date' : '2014-12-21 12:57:00.506Z' },'$lt' : { '$date' : '2014-12-21 12:59:00.506Z' } } }"
+```
