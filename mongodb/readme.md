@@ -78,3 +78,20 @@ db.collection.dropindex()
 ```bash
 mongoexport.exe -h *MYHOST* -p *MYPORT* -q "{ 'time' : { '$gte' : { '$date' : '2014-12-21 12:57:00.506Z' },'$lt' : { '$date' : '2014-12-21 12:59:00.506Z' } } }"
 ```
+
+# 스크립트 사용
+
+실행예제  
+```bash
+mongo dbname -u username -p password --quiet script.js > script.tsv
+```
+
+```javascript
+rs.slaveOk() // db가 slave인경우 필요
+
+print("_id, value, createDate") // title
+db.collection.find(쿼리내용).forEach(function(data){
+    print(data._id+","+data.value+","+data.createDate.getTime()) // 시간에 대해선 getTime를 사용하면 UNIXTIME출력가능
+  }
+})
+```
