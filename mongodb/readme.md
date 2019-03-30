@@ -95,3 +95,18 @@ db.collection.find(쿼리내용).forEach(function(data){
   }
 })
 ```
+
+## cursor.skip( value )
+https://velopert.com/516
+
+이 메소드는 출력 할 데이터의 시작부분을 설정할 때 사용됩니다.  value 값 갯수의 데이터를 생략하고 그 다음부터 출력합니다.
+
+예제4: 2개의 데이터를 생략하고 그 다음부터 출력
+
+```bash
+> db.orders.find().skip(2)
+{ "_id" : 3, "item" : { "category" : "cookies", "type" : "chocolate chip" }, "amount" : 15 }
+{ "_id" : 4, "item" : { "category" : "cake", "type" : "lemon" }, "amount" : 30 }
+{ "_id" : 5, "item" : { "category" : "cake", "type" : "carrot" }, "amount" : 20 }
+{ "_id" : 6, "item" : { "category" : "brownies", "type" : "blondie" }, "amount" : 10 }
+```
