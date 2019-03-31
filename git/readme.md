@@ -48,3 +48,11 @@ https://thdev.tech/git/2016/12/19/Git-Branch-Name-Change/
 ## [Git]Tag 추가, 변경 및 삭제하기
 
 http://minsone.github.io/git/git-addtion-and-modified-delete-tag
+
+## 병합할 때 발생하는 충돌 해결하기
+
+https://backlog.com/git-tutorial/kr/stepup/stepup2_7.html
+
+## 태그 (Tag)
+
+https://backlog.com/git-tutorial/kr/stepup/stepup4_1.html
