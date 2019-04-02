@@ -74,3 +74,32 @@ play-services-gcmを使っているプラグインが複数存在する場合、
 **これで怒られたので以下を修正**
 5. platforms > android > project.properties の*cordova.system.library.5=com.google.firebase:firebase-messaging:11.0.1* を*11.0.4* に指定した(ログで交換性があるバージョンが11.0.4で表示されていたため)
 6. ionic build androidするとパーシングがうまく始まる、FCMコンソールでも端末が登録されていることが確認できた
+
+# Android 8.0の対応
+
+```bash
+04-01 15:43:35.037 14496 14496 E AndroidRuntime: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.SecurityException: Permission Denial: opening provider com.android.providers.contacts.ContactsProvider2 from ProcessRecord{22b8b64 14496:jp.co.xxxx.yyyy/u0a415} (pid=14496, uid=10415) requires android.permission.READ_CONTACTS or android.permission.WRITE_CONTACTS
+04-01 15:43:35.037 14496 14496 E AndroidRuntime: 	at org.xwalk.core.ReflectMethod.invoke(ReflectMethod.java:67)			
+04-01 15:43:35.037 14496 14496 E AndroidRuntime: 	at org.xwalk.core.XWalkCoreWrapper.handlePostInit(XWalkCoreWrapper.java:157)			
+04-01 15:43:35.037 14496 14496 E AndroidRuntime: 	at org.xwalk.core.XWalkLibraryLoader$ActivateTask.onPostExecute(XWalkLibraryLoader.java:306)			
+04-01 15:43:35.037 14496 14496 E AndroidRuntime: 	at org.xwalk.core.XWalkLibraryLoader$ActivateTask.onPostExecute(XWalkLibraryLoader.java:277)			
+```
+
+連絡先を使ってないのに権限を呼び出す…  
+**crosswalkを削除した**(プラグインのメインテナンスが数年前からなくて最新のAndroidに対応できない)
+
+# SDK最新化
+
+SDKリポジトリはmavenからダウンロードできるからbuild.gradleを以下のように修正
+
+```gradle
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url "https://maven.google.com"
+        }
+    }
+}
+```
+
