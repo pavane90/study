@@ -56,3 +56,9 @@ https://backlog.com/git-tutorial/kr/stepup/stepup2_7.html
 ## 태그 (Tag)
 
 https://backlog.com/git-tutorial/kr/stepup/stepup4_1.html
+
+## gitlens
+
+https://ytnobody.net/2017/12/16/vscode-gitlens%E3%81%AF%E3%81%84%E3%81%84%E3%81%9E%E3%81%A8%E3%81%84%E3%81%86%E8%A9%B1/
+
+이클립스를 버리고 VSCode를 쓸 이유는 이거 하나로 충분한 것 같다.
