@@ -55,3 +55,7 @@ $ cordova platform remove <platform></code></pre>
 > If you add a platform without specifying a version/folder/git_url, the version to install is taken from package.json or config.xml, if found. In case of conflicts, package.json is given precedence over config.xml.
 
 버전, 폴더, 깃주소 없이 **'cordova platform add android'** 를 실행한다면 config.xml과 package.json를 기준으로 플랫폼이 추가된다.
+
+# 어플 등록시의 문제 해결
+
+https://zakki-today.netlify.com/cordova-hamari/  
