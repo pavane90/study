@@ -55,3 +55,28 @@ SELECT user_id FROM t_user WHERE user_id = 'aoyagi' AND password = crypt('abc', 
 ```
 
 [3. ハッシュと暗号化・復号化について](https://qiita.com/reflet/items/eeced34f9c5c2a9fbaf6)
+
+### crypt된 패스워드를 평문으로 바꿔보자
+```sql
+select user_id, case when (password = crypt('abc', password)) = 't' then 'abc' else null end as password 
+from t_user
+where password is not null;
+```
+
+select절에서 crypt를 사용하면 맞을경우 true를 틀릴경우 false를 반환한다.
+
+case문을 사용하면 패스워드를 평문으로 받을 수 있다.
+
+where조건에 is not null를 써서 틀릴경우 결과 자체가 나오지 않게 하려 했으나, select절에 alias를 사용한 경우 where절에선 바로 쓸 수가 없었다.
+
+
+때문에 아래와 같이 수정
+
+```sql
+select user_id, password
+from (select user_id, case when (password = crypt('abc', password)) = 't' then 'abc' else null end as password 
+from t_user) as x
+where x.password is not null;
+```
+
+틀린 암호를 입력한 경우 결과 자체가 나오지 않는다!
