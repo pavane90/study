@@ -5,4 +5,4 @@
 このレポジトリーは個人的に学んでいることのまとめです。
 
 # Today I Learned
-- regex 
+- design pattern 
