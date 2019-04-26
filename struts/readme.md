@@ -15,3 +15,8 @@ Adam
 
 ## まとめ
 **変数名の最初の文字は小文字にすること**
+
+
+# Validator
+
+http://www.javaroad.jp/opensource/js_struts19.htm
