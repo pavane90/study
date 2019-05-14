@@ -6,4 +6,4 @@
 
 # Today I Learned
 
-- mongodb4
+- postgresql

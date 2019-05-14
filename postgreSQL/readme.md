@@ -114,3 +114,8 @@ https://www.techscore.com/tech/sql/10_01.html
 ### PostgreSQL暗号化
 
 https://www.casleyconsulting.co.jp/blog/engineer/278/
+
+### CASE문과 date_part
+
+http://www.gisdeveloper.co.kr/?p=4601  
+https://postgresdba.com/bbs/board.php?bo_table=B10&wr_id=25  
