@@ -1,0 +1,1 @@
+[なぜWebサイトにWAFが必要なのか？その理由を解説](https://www.shadan-kun.com/blog/measure/1395/)
