@@ -138,3 +138,7 @@ https://velopert.com/516
 몽고DB 설치후 설치폴더의 bin까지의 경로를 시스템 환경변수의 path로 추가한다  
 cmd 실행 : mongod --dbpath /Users/유저명/database/local 을 입력한다
 새로운 cmd창 실행 : mongo 입력후 use local 입력하면 local db를 사용할 수 있다.
+
+# Compass  
+
+https://www.mongodb.com/products/compass  
