@@ -142,3 +142,9 @@ cmd 실행 : mongod --dbpath /Users/유저명/database/local 을 입력한다
 # Compass  
 
 https://www.mongodb.com/products/compass  
+
+# 배열내의 키워드 검색 
+
+```bash
+db.collection.find({'array' : { '$elemMatch' : { 'value': /ragex/ }}})
+```
