@@ -119,3 +119,12 @@ https://www.casleyconsulting.co.jp/blog/engineer/278/
 
 http://www.gisdeveloper.co.kr/?p=4601  
 https://postgresdba.com/bbs/board.php?bo_table=B10&wr_id=25  
+
+
+### 날짜기준으로 하나의 레코드만 group by 한다면...
+
+```sql
+select * from (select 이름, 장소, 시간 from 테이블 order by 시간 desc) as a group by a.이름, a.장소
+```
+
+더 좋은 방법이 있을 것 같다.
