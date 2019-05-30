@@ -119,3 +119,12 @@ Before using single or fat arrows, one has to ask the two important questions me
 
 Written and published on: **[www.js-tricks.com](http://js-tricks.com/dont-use-fat-arrows-in-coffeescript-just-because-of-this)** reviewed by **Felix Zandanel ([@fza](https://github.com/fza))**
 * * *
+
+## async.waterfall 사용법과 사용이유  
+http://kinjwo1.blog.me/220771236236  
+
+## 비동기 교통정리 - async.waterfall
+https://jybaek.tistory.com/745  
+
+## Async를 사용하여 콜백 정리하기
+https://proinlab.com/archives/1811  
