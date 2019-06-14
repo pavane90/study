@@ -25,3 +25,14 @@ https://pgmemo.tokyo/data/archives/649.html
 ```php
 {$ar_data|@myplugin}
 ```
+
+## 組み込み関数
+
+https://www.smarty.net/docsv2/ja/language.function.if.tpl
+
+```php
+{* null でないことのチェック *}
+{if isset($foo) }
+   .....
+{/if}
+```
