@@ -128,3 +128,8 @@ select * from (select 이름, 장소, 시간 from 테이블 order by 시간 desc
 ```
 
 더 좋은 방법이 있을 것 같다.
+
+
+### [SQL] ALTER TABLE 테이블 수정 (ADD, DROP, MODIFY, RENAME)
+
+https://hyeonstorage.tistory.com/292
