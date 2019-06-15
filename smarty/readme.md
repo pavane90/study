@@ -36,3 +36,5 @@ https://www.smarty.net/docsv2/ja/language.function.if.tpl
    .....
 {/if}
 ```
+
+http://www.phpschool.com/classroom/SmartyDocument.pdf
