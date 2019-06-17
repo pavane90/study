@@ -42,3 +42,8 @@ http://www.phpschool.com/classroom/SmartyDocument.pdf
 [PHP] Smarty の fetch 関数で、様々なテンプレートに Smarty を応用する
 
 https://ameblo.jp/itboy/entry-10055111616.html
+
+## smarty foreach, foreachelse & php foreach
+
+smarty : https://www.smarty.net/docsv2/en/language.function.foreach.tpl  
+php : https://www.php.net/manual/en/control-structures.foreach.php
