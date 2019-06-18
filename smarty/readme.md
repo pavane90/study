@@ -47,3 +47,7 @@ https://ameblo.jp/itboy/entry-10055111616.html
 
 smarty : https://www.smarty.net/docsv2/en/language.function.foreach.tpl  
 php : https://www.php.net/manual/en/control-structures.foreach.php
+
+
+https://commercepack.jp/blog/post20190613.html  
+> Commerce pack では、消費税は全て内税として扱いますので、商品を登録する際には税込の価格で登録していただきます。送料、代引き手数料につきましても同様に、全て税込価格で登録いただきます。
