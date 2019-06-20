@@ -53,3 +53,6 @@ php : https://www.php.net/manual/en/control-structures.foreach.php
 https://commercepack.jp/blog/post20190613.html  
 > Commerce pack では、消費税は全て内税として扱いますので、商品を登録する際には税込の価格で登録していただきます。送料、代引き手数料につきましても同様に、全て税込価格で登録いただきます。
 
+## php 함수 오버로딩  
+
+https://strangelight.tistory.com/entry/%ED%95%A8%EC%88%98-%EC%98%A4%EB%B2%84%EB%A1%9C%EB%94%A9
