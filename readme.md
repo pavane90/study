@@ -6,4 +6,4 @@
 
 # Today I Learned
 
-- postgresl
+- linux socket
