@@ -50,9 +50,14 @@ php : https://www.php.net/manual/en/control-structures.foreach.php
 
 ## 内税対応
 
-https://commercepack.jp/blog/post20190613.html  
+https://commercepack.jp/blog/post20190613.html
+
 > Commerce pack では、消費税は全て内税として扱いますので、商品を登録する際には税込の価格で登録していただきます。送料、代引き手数料につきましても同様に、全て税込価格で登録いただきます。
 
-## php 함수 오버로딩  
+## php 함수 오버로딩
 
 https://strangelight.tistory.com/entry/%ED%95%A8%EC%88%98-%EC%98%A4%EB%B2%84%EB%A1%9C%EB%94%A9
+
+## PHP 예제로 알아보는 MVC 패턴
+
+https://medium.com/@smartbosslee/php-%EC%98%88%EC%A0%9C%EB%A1%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-mvc-%ED%8C%A8%ED%84%B4-1628b47b1b04
