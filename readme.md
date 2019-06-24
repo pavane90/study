@@ -6,4 +6,4 @@
 
 # Today I Learned
 
-- linux socket
+- Serverless is a Doctrine, not a Technology
