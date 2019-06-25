@@ -61,3 +61,7 @@ https://strangelight.tistory.com/entry/%ED%95%A8%EC%88%98-%EC%98%A4%EB%B2%84%EB%
 ## PHP 예제로 알아보는 MVC 패턴
 
 https://medium.com/@smartbosslee/php-%EC%98%88%EC%A0%9C%EB%A1%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-mvc-%ED%8C%A8%ED%84%B4-1628b47b1b04
+
+## PHP: unserialize() expects parameter 1 to be string
+
+https://stackoverflow.com/questions/35262180/php-unserialize-expects-parameter-1-to-be-string
