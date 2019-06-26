@@ -16,3 +16,12 @@
 # SDK 12.1 & XS Max의 변경점
 
 [Upcoming App Store Submission Requirements](https://developer.apple.com/news/?id=03202019a)
+
+# Width 100% not working on iOS
+
+https://stackoverflow.com/questions/8889261/width-100-not-working-on-ios  
+
+> Try by simplifying your meta name viewport (at least for iOS) to the following line:
+> ```css
+> <meta name="viewport" content="width=device-width,initial-scale=1" />
+> ```
