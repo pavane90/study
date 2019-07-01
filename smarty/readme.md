@@ -65,3 +65,7 @@ https://medium.com/@smartbosslee/php-%EC%98%88%EC%A0%9C%EB%A1%9C-%EC%95%8C%EC%95
 ## PHP: unserialize() expects parameter 1 to be string
 
 https://stackoverflow.com/questions/35262180/php-unserialize-expects-parameter-1-to-be-string
+
+## EC-cubeコーディングルールについて
+
+https://doc.ec-cube.net/guideline_coding-style
