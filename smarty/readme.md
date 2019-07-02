@@ -69,3 +69,15 @@ https://stackoverflow.com/questions/35262180/php-unserialize-expects-parameter-1
 ## EC-cubeコーディングルールについて
 
 https://doc.ec-cube.net/guideline_coding-style
+
+## 템플릿을 실행하는 동안 모든 할당 된 Smarty 변수를 얻는 방법?
+
+https://codeday.me/ko/qa/20190624/876584.html
+
+```php
+function smarty_function_magic_array_of_variables($params, &$smarty) {
+    foreach($smarty->_tpl_vars as $key=>$value) {
+        echo "$key is $value<br>";
+    }
+}
+```

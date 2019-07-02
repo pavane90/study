@@ -6,4 +6,4 @@
 
 # Today I Learned
 
-- smarty eccube2
+- smarty
