@@ -148,3 +148,8 @@ https://www.mongodb.com/products/compass
 ```bash
 db.collection.find({'array' : { '$elemMatch' : { 'value': /ragex/ }}})
 ```
+
+
+# mongodb compass
+
+https://www.mongodb.com/products/compass
