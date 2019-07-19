@@ -6,4 +6,4 @@
 
 # Today I Learned
 
-- c#
+- c++
