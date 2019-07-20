@@ -133,3 +133,12 @@ select * from (select 이름, 장소, 시간 from 테이블 order by 시간 desc
 ### [SQL] ALTER TABLE 테이블 수정 (ADD, DROP, MODIFY, RENAME)
 
 https://hyeonstorage.tistory.com/292
+
+### PostgreSQL 한글 정렬 문제 해결하기
+
+https://jupiny.com/2016/12/12/sort-korean-in-postgresql/
+
+> Collate라는 컬럼이 있는데, 바로 이 부분이 데이터베이스의 정렬하는 순서를 결정한다. 그냥 데이터베이스를 생성하면 기본적으로 ko_KR.UTF-8 또는 en_US.utf8으로 설정되있음을 볼 수 있다.
+> 
+> 해결법은 여기서 데이터베이스의 LC_COLLATE라는 변수 값을 'C'로 바꾸면 된다. 하지만 이는 생성된 데이터베이스에서는 바꿀 수 없으며, 데이터베이스를 최초로 생성할 때 설정을 해주어야 한다. 
+그래서 어쩔 수 없이 기존의 데이터베이스를 dump하고, LC_COLLATE를 'C'로 설정한 데이터베이스를 새로 만든 후, 이전에 dump한 것을 복구하는 방식으로 해결하여야 한다.
