@@ -153,3 +153,7 @@ db.collection.find({'array' : { '$elemMatch' : { 'value': /ragex/ }}})
 # mongodb compass
 
 https://www.mongodb.com/products/compass
+
+# Multikey Indexes
+
+https://docs.mongodb.com/manual/core/index-multikey/
