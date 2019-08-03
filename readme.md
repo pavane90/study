@@ -6,4 +6,4 @@
 
 # Today I Learned
 
-- Observer Pattern
+- iterator Pattern
