@@ -27,3 +27,7 @@ http://tacamy.hatenablog.com/entry/2014/02/19/141948
 ### CSS Grid Layout
 
 https://www.w3schools.com/css/css_grid.asp
+
+### Angular 7 - Changing sidebar and element z-index
+
+https://stackoverflow.com/questions/55315387/angular-7-changing-sidebar-and-element-z-index
