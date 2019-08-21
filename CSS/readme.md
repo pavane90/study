@@ -31,3 +31,7 @@ https://www.w3schools.com/css/css_grid.asp
 ### Angular 7 - Changing sidebar and element z-index
 
 https://stackoverflow.com/questions/55315387/angular-7-changing-sidebar-and-element-z-index
+
+### CSS / 선택자(Selector) / :nth-child(), :nth-last-child()
+
+https://www.codingfactory.net/10781
