@@ -35,3 +35,7 @@ https://stackoverflow.com/questions/55315387/angular-7-changing-sidebar-and-elem
 ### CSS / 선택자(Selector) / :nth-child(), :nth-last-child()
 
 https://www.codingfactory.net/10781
+
+CSS 디버깅 시간을 절약 할 수있는 CSS 명명 규칙
+
+https://www.vobour.com/-css-%EB%94%94%EB%B2%84%EA%B9%85-%EC%8B%9C%EA%B0%84%EC%9D%84-%EC%A0%88%EC%95%BD-%ED%95%A0-%EC%88%98%EC%9E%88%EB%8A%94-css-%EB%AA%85%EB%AA%85-%EA%B7%9C%EC%B9%99
