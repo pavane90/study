@@ -47,3 +47,18 @@ https://velog.io/@chading/CSS-Transition-%ED%99%9C%EC%9A%A9-TIP-%EB%B6%80%EB%93%
 ### Position : Flexbox
 
 http://www.beautifulcss.com/archives/2812
+
+### 모바일환경에서 키보드가 올라올때 input을 가리는 문제
+
+키보드가 올라오면 브라우저의 폭이 그만큼 줄어들게 되는데 modal을 사용하는 경우 position에 따라 브라우저의 중앙에 오게 되는 경우가 많다. 이럴땐 키보드의 높이로 인해 부족해진 브라우저의 높이가 input을 표시하지 못하는 경우가 있는데 media쿼리를 사용하여 modal의 위치를 조정하는 식으로 해결할 수 있다. 
+
+다만 modal내의 input이 여러개가 된다면 overflow로 스크롤을 가능하게 하는등의 대응이 필요해 보인다.
+
+```css
+  @media screen and (max-height:250px){
+    .modal-m{
+      position: fixed;
+      top: -20px;
+    }
+  }
+```
