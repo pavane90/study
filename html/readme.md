@@ -7,3 +7,7 @@ https://developers.google.com/web/fundamentals/design-and-ux/input/touch/?hl=ko
 https://stackoverflow.com/questions/39930709/how-to-handle-hybrid-devices-in-click-touch-events-properly
 
 https://angularfirebase.com/lessons/hammerjs-angular-5-animations-for-mobile-gestures-tutorial/
+
+### touchend Event
+
+https://www.w3schools.com/jsref/event_touchend.asp
