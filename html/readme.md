@@ -15,3 +15,7 @@ https://www.w3schools.com/jsref/event_touchend.asp
 ### Multiple Sticky Titles with CSS and JS
 
 https://codepen.io/chrissp26/pen/gBrdo
+
+### Simple CSS Waves | Mobile & Full width
+
+https://codepen.io/takenotsuka/pen/vYBJJJw
