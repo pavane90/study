@@ -19,3 +19,7 @@ https://codepen.io/chrissp26/pen/gBrdo
 ### Simple CSS Waves | Mobile & Full width
 
 https://codepen.io/takenotsuka/pen/vYBJJJw
+
+### 패스워드 저장을 무시하는 방법
+
+https://gist.github.com/runspired/b9fdf1fa74fc9fb4554418dea35718fe
