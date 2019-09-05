@@ -70,3 +70,7 @@ http://www.bad-company.jp/box-shadow/
 ### SVG percentage circle with css keyframes animation - complete example
 
 https://codepen.io/takenotsuka/pen/MWgEVpM
+
+### Android、iPhoneではbutton要素にtext-overflow:ellipsisが適用されない
+
+https://blog.webcreativepark.net/2013/07/28-030252.html
