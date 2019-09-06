@@ -74,3 +74,7 @@ https://codepen.io/takenotsuka/pen/MWgEVpM
 ### Android、iPhoneではbutton要素にtext-overflow:ellipsisが適用されない
 
 https://blog.webcreativepark.net/2013/07/28-030252.html
+
+### Scrollable container with dynamic height
+
+https://codepen.io/stephenbunch/pen/KWBNVo
