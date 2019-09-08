@@ -1,0 +1,45 @@
+body {
+  font-family: arial;
+}
+
+.container {
+  background: #3f51b5;
+
+  /* give the outermost container a predefined size */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 316px;
+
+  display: grid;
+  grid-template-columns: 316px 1fr;
+}
+
+.section {
+  margin: 1px;
+  /* 사용가능한 모든위치를 확장함 */
+  flex-grow: 1;
+
+  /*부모 요소에 flex와 column정렬을 포함함*/
+  display: flex;
+  flex-direction: column;
+
+  /* for Firefox */
+  min-height: 0;
+}
+
+.content {
+  margin: 1px;
+  background: #bbdefb;
+}
+
+.scrollable-content {
+  background: white;
+  flex-grow: 1;
+
+  overflow: auto;
+
+  /* for Firefox */
+  min-height: 0;
+}
