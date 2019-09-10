@@ -7,10 +7,9 @@ body {
 
   /* give the outermost container a predefined size */
   position: absolute;
-  top: 0;
+  top: 0; /* margin padding으로 조정필요*/
   bottom: 0;
   left: 0;
-  width: 316px;
   /*grid 혹은 flex사용후 flex의 경우 direction지정*/
   display: grid;
   grid-template-columns: 316px 1fr;
@@ -20,11 +19,9 @@ body {
   margin: 1px;
   /* 사용가능한 모든위치를 확장함 */
   flex-grow: 1;
-
   /*부모 요소에 flex와 column정렬을 포함함*/
   display: flex;
   flex-direction: column;
-
   /* for Firefox */
   min-height: 0;
 }
@@ -42,4 +39,8 @@ body {
 
   /* for Firefox */
   min-height: 0;
+}
+
+.right-section {
+  background-color: #ddd;
 }
