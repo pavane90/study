@@ -71,10 +71,14 @@ http://www.bad-company.jp/box-shadow/
 
 https://codepen.io/takenotsuka/pen/MWgEVpM
 
-### Android、iPhoneではbutton要素にtext-overflow:ellipsisが適用されない
+### Android、iPhone では button 要素に text-overflow:ellipsis が適用されない
 
 https://blog.webcreativepark.net/2013/07/28-030252.html
 
 ### Scrollable container with dynamic height
 
 https://codepen.io/stephenbunch/pen/KWBNVo
+
+### When do the :hover, :focus, and :active pseudo-classes apply?
+
+https://bitsofco.de/when-do-the-hover-focus-and-active-pseudo-classes-apply/
