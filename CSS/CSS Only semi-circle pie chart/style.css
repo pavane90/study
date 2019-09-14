@@ -54,7 +54,7 @@ body {
   .pie-wrapper .arc::before {
     content: "";
     height: 1px;
-    width: 5px;
+    width: 0px;
     position: absolute;
     top: 0px;
   }
