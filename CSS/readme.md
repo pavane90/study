@@ -82,3 +82,8 @@ https://codepen.io/stephenbunch/pen/KWBNVo
 ### When do the :hover, :focus, and :active pseudo-classes apply?
 
 https://bitsofco.de/when-do-the-hover-focus-and-active-pseudo-classes-apply/
+
+
+### Prevent BODY from scrolling when a modal is opened
+
+https://stackoverflow.com/questions/9538868/prevent-body-from-scrolling-when-a-modal-is-opened
