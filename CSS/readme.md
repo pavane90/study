@@ -92,3 +92,7 @@ https://stackoverflow.com/questions/9538868/prevent-body-from-scrolling-when-a-m
 ### CSS에 대한 깊은 이해: 폰트 매트릭스, line-height와 vertical-align
 
 https://wit.nts-corp.com/2017/09/25/4903
+
+### 반응형 웹을 위한 rem 단위로 디자인하기
+
+http://indivdot.github.io/css/2016/03/26/emrem.html
