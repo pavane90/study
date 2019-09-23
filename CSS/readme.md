@@ -102,3 +102,8 @@ https://webdir.tistory.com/340
 ### CSS Flex(Flexible Box) 완벽 가이드
 
 https://heropy.blog/2018/11/24/css-flexible-box/
+
+### 안드로이드 해상도 대응
+
+https://pjh445.blog.me/220786859708
+
