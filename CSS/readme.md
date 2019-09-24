@@ -107,3 +107,6 @@ https://heropy.blog/2018/11/24/css-flexible-box/
 
 https://pjh445.blog.me/220786859708
 
+### 모달 팝업뜰때 바닥 스크롤 막기
+
+https://velog.io/@naynara/%EB%AA%A8%EB%8B%AC-%ED%8C%9D%EC%97%85%EB%9C%B0%EB%95%8C-%EB%B0%94%EB%8B%A5-%EC%8A%A4%ED%81%AC%EB%A1%A4-%EB%A7%89%EA%B8%B0
