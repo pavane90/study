@@ -110,3 +110,9 @@ https://pjh445.blog.me/220786859708
 ### 모달 팝업뜰때 바닥 스크롤 막기
 
 https://velog.io/@naynara/%EB%AA%A8%EB%8B%AC-%ED%8C%9D%EC%97%85%EB%9C%B0%EB%95%8C-%EB%B0%94%EB%8B%A5-%EC%8A%A4%ED%81%AC%EB%A1%A4-%EB%A7%89%EA%B8%B0
+
+> 이방법을 쓰면 해결은 되나 안드로이드에서는 페이지 하단으로 스크롤시 URL바가 사라지지 않는다.
+
+### Make a whole div clickable in order to launch a _blank document
+
+https://stackoverflow.com/questions/4491879/make-a-whole-div-clickable-in-order-to-launch-a-blank-document
