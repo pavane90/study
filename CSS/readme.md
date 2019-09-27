@@ -135,3 +135,7 @@ https://weblog.west-wind.com/posts/2016/sep/14/bootstrap-modal-dialog-showing-un
   ...
 </div>
 ```
+
+### margin이 큰 스크롤 div를 스마트폰에서 조작하는경우 60fps 유지가 안되는 현상
+
+https://www.fourkitchens.com/blog/article/fix-scrolling-performance-css-will-change-property/
