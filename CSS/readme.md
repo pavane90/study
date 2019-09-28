@@ -113,7 +113,7 @@ https://velog.io/@naynara/%EB%AA%A8%EB%8B%AC-%ED%8C%9D%EC%97%85%EB%9C%B0%EB%95%8
 
 > 이방법을 쓰면 해결은 되나 안드로이드에서는 페이지 하단으로 스크롤시 URL바가 사라지지 않는다.
 
-### Make a whole div clickable in order to launch a _blank document
+### Make a whole div clickable in order to launch a \_blank document
 
 https://stackoverflow.com/questions/4491879/make-a-whole-div-clickable-in-order-to-launch-a-blank-document
 
@@ -121,7 +121,7 @@ https://stackoverflow.com/questions/4491879/make-a-whole-div-clickable-in-order-
 
 https://weblog.west-wind.com/posts/2016/sep/14/bootstrap-modal-dialog-showing-under-modal-background
 
-부트스트랩 모달의 경우 body를 기준으로 위치를 잡는데, 배경을 최대폭으로 쓰기위해 absolute속성으로 크기를 잡는 경우 모달이 나오지 않는 문제가 있다. 
+부트스트랩 모달의 경우 body를 기준으로 위치를 잡는데, 배경을 최대폭으로 쓰기위해 absolute속성으로 크기를 잡는 경우 모달이 나오지 않는 문제가 있다.
 
 여러가지 방법을 시도해본 결과 아래의 방법이 가장 효과적이다.
 
@@ -131,11 +131,13 @@ https://weblog.west-wind.com/posts/2016/sep/14/bootstrap-modal-dialog-showing-un
   <div class=""></div>
 </div>
 <!-- 이 div에 컨텐츠를 집어넣고 absolute로 잡아주면 해결 -->
-<div class="contents"> //position: absolute
-  ...
-</div>
+<div class="contents">//position: absolute ...</div>
 ```
 
 ### margin이 큰 스크롤 div를 스마트폰에서 조작하는경우 60fps 유지가 안되는 현상
 
 https://www.fourkitchens.com/blog/article/fix-scrolling-performance-css-will-change-property/
+
+### POSITION: ABSOLUTE; 에 대해 알아보자
+
+http://pager.kr/x/index.php?mid=board_MBnO39&document_srl=789&listStyle=list
