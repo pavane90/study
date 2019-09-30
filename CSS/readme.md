@@ -141,3 +141,24 @@ https://www.fourkitchens.com/blog/article/fix-scrolling-performance-css-will-cha
 ### POSITION: ABSOLUTE; 에 대해 알아보자
 
 http://pager.kr/x/index.php?mid=board_MBnO39&document_srl=789&listStyle=list
+
+### How to make C3.js charts height Dynamically?
+
+https://stackoverflow.com/questions/53835020/how-to-make-c3-js-charts-height-dynamically
+
+허나 이 방법은 그다지 의미가 없었음
+아래의 방식으로 해결
+
+```scss
+  .chart-row {
+    overflow: hidden; //스크롤 금지
+    position: absolute; 
+    top: 0; //원하는만큼 margin-top용도로 사용
+    left: 0;
+    bottom: 0;
+    min-height: 0;
+    width: 100%;
+  }
+```
+
+이렇게 하면 c3js는 부모div의 모든 height를 사용하게 된다.
