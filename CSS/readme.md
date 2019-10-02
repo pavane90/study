@@ -162,3 +162,25 @@ https://stackoverflow.com/questions/53835020/how-to-make-c3-js-charts-height-dyn
 ```
 
 이렇게 하면 c3js는 부모div의 모든 height를 사용하게 된다.
+
+### 화면 크기에 맞춰 버튼등의 글자 바꾸기
+
+https://stackoverflow.com/questions/39894291/how-to-change-text-not-font-size-according-to-screen-size-in-css/39894493
+
+```css
+// Hide short text by default (resolution > 1200px)
+.short-text { display: none; }
+
+// When resolution <= 1200px, hide full text and show short text
+@media (max-width: 1200px) {
+    .short-text { display: inline-block; }
+    .full-text { display: none; }
+}
+```
+
+```html
+<span class="full-text">Saturday</span>
+<span class="short-text">Sat</span>
+```
+
+@mixin, $property 등을 사용하면 더 편하게 적용할 수 있음
