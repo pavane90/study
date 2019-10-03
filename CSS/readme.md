@@ -184,3 +184,24 @@ https://stackoverflow.com/questions/39894291/how-to-change-text-not-font-size-ac
 ```
 
 @mixin, $property 등을 사용하면 더 편하게 적용할 수 있음
+
+### 텍스트를 세로정렬하는 간단한 방법
+
+```html
+<div class="flex-div">
+  <div class="name">
+  text
+  </div>
+<div>
+```
+
+```scss
+.flex-div {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  .name {
+    /*문자열 속성 지정*/
+  }
+}
+```
