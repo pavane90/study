@@ -205,3 +205,8 @@ https://stackoverflow.com/questions/39894291/how-to-change-text-not-font-size-ac
   }
 }
 ```
+
+### svg 아이콘이 선명하게 보이지 않는 문제
+
+사실 CSS나 html의 문제가 아니라 svg파일 자체에 문제가 있을 확률이 높은 것 같다.
+파일내에 무의미한 mask는 없는지, 픽셀가이드라인은 정수로 지정되어 있는지 알아볼것
