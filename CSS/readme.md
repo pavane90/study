@@ -150,15 +150,15 @@ https://stackoverflow.com/questions/53835020/how-to-make-c3-js-charts-height-dyn
 아래의 방식으로 해결
 
 ```scss
-  .chart-row {
-    overflow: hidden; //스크롤 금지
-    position: absolute; 
-    top: 0; //원하는만큼 margin-top용도로 사용
-    left: 0;
-    bottom: 0;
-    min-height: 0;
-    width: 100%;
-  }
+.chart-row {
+  overflow: hidden; //스크롤 금지
+  position: absolute;
+  top: 0; //원하는만큼 margin-top용도로 사용
+  left: 0;
+  bottom: 0;
+  min-height: 0;
+  width: 100%;
+}
 ```
 
 이렇게 하면 c3js는 부모div의 모든 height를 사용하게 된다.
@@ -169,30 +169,36 @@ https://stackoverflow.com/questions/39894291/how-to-change-text-not-font-size-ac
 
 ```css
 // Hide short text by default (resolution > 1200px)
-.short-text { display: none; }
+.short-text {
+  display: none;
+}
 
 // When resolution <= 1200px, hide full text and show short text
 @media (max-width: 1200px) {
-    .short-text { display: inline-block; }
-    .full-text { display: none; }
+  .short-text {
+    display: inline-block;
+  }
+  .full-text {
+    display: none;
+  }
 }
 ```
 
 ```html
-<span class="full-text">Saturday</span>
-<span class="short-text">Sat</span>
+<span class="full-text">Saturday</span> <span class="short-text">Sat</span>
 ```
 
-@mixin, $property 등을 사용하면 더 편하게 적용할 수 있음
+@mixin, \$property 등을 사용하면 더 편하게 적용할 수 있음
 
 ### 텍스트를 세로정렬하는 간단한 방법
 
 ```html
 <div class="flex-div">
   <div class="name">
-  text
+    text
   </div>
-<div>
+  <div></div>
+</div>
 ```
 
 ```scss
@@ -215,3 +221,7 @@ https://stackoverflow.com/questions/39894291/how-to-change-text-not-font-size-ac
 
 이상하게 ngFor를 돌리는 부분에 bootstrap의 css grid 클래스를 추가하면 동작이 이상해지는 문제가 있다.
 지금상황에선 부모나 자식div쪽에서 너비를 지정하는것밖에 방법이 없어보인다..
+
+### Change Color of SVG on Hover
+
+https://css-tricks.com/change-color-of-svg-on-hover/
