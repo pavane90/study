@@ -225,3 +225,7 @@ https://stackoverflow.com/questions/39894291/how-to-change-text-not-font-size-ac
 ### Change Color of SVG on Hover
 
 https://css-tricks.com/change-color-of-svg-on-hover/
+
+### 모바일 UI·UX 디자인시 고려해야 할 가이드라인 1
+
+https://brunch.co.kr/@chulhochoiucj0/8
