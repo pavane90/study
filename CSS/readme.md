@@ -229,3 +229,25 @@ https://css-tricks.com/change-color-of-svg-on-hover/
 ### 모바일 UI·UX 디자인시 고려해야 할 가이드라인 1
 
 https://brunch.co.kr/@chulhochoiucj0/8
+
+### 디바이스의 크기에 따라 배율을 조절하는 방법
+```html
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0>
+```
+```javascript
+    <script>
+      let sw = screen.width;
+      let sh = screen.height;
+      let fw;
+      if ( window.matchMedia("(orientation: landscape)").matches ) {
+        fw = sh;
+      } else {
+        fw = sw;
+      }
+      //768px 미만에 0.5배율을 적용
+      if (fw < 768) {
+          let mvp = document.getElementById("viewport");
+          mvp.setAttribute("content","width=device-width, initial-scale=0.5);
+      }
+    </script>
+```
