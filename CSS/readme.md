@@ -231,6 +231,7 @@ https://css-tricks.com/change-color-of-svg-on-hover/
 https://brunch.co.kr/@chulhochoiucj0/8
 
 ### 디바이스의 크기에 따라 배율을 조절하는 방법
+
 ```html
 <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0>
 ```
