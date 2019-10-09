@@ -252,3 +252,11 @@ https://brunch.co.kr/@chulhochoiucj0/8
       }
     </script>
 ```
+
+### iPad사파리나 크롬에서 일부 스크롤 요소의 표시에 지연이 있는 경우
+
+```css
+-webkit-transform: translate3d(0,0,0);
+```
+
+을 사용하여 문제를 해결할 수 있다. (생각보다 잘된다)
