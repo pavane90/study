@@ -253,6 +253,54 @@ https://brunch.co.kr/@chulhochoiucj0/8
     </script>
 ```
 
+사용하니 잘 되는데.. 페이지 새로고침이 없는 SPA에서 사용하면 최초페이지 로딩시에 적용된 스케일에서 바뀌지 않는 문제가 있었다.
+app.component.ts에서 아래와 같은 방법으로 routing을 감시하여 처리함
+
+### How to call a function on every route change in angular2
+
+https://stackoverflow.com/questions/42453375/how-to-call-a-function-on-every-route-change-in-angular2
+
+```html
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale={{scale}}>
+```
+
+```ts
+  //최초의 스케일은 1로 초기화해둔다
+  this.scale = 1.0;
+  //router이벤트를 감시하여 주소변경이 있을때마다 함수를 불러온다
+  this.router.events.subscribe((ev) => {
+  if (ev instanceof NavigationEnd) {this.initScale()}
+  });
+
+  public initScale() {
+    //화면이 가로인지 세로인지를 판단하여 가로폭의 너비만 사용
+    let sw = screen.width;
+    let sh = screen.height;
+    let fw;
+    if ( window.matchMedia("(orientation: landscape)").matches ) {
+    fw = sh;
+    } else {
+    fw = sw;
+    }
+
+    if (fw < 768 && this.getPageName()) {
+        this.scale = 0.5; //768px미만 (bootstrap상 768미만은 스마트폰으로 판단하므로 해당되는 단말이면 0.5스케일로 반환)
+    } else {
+        this.scale = 1.0; //그외는 1.0으로 복귀
+    }
+  }
+
+  public getPageName(){
+    // 특정 문자열을 가진 페이지에 대해서는 0.5로 하고 싶었기 때문에 getPageName함수도 정의
+    if (!location.href.match('/sp/')) {
+        return true;
+    }
+    else {
+        return false;
+    }
+  }
+```
+
 ### iPad사파리나 크롬에서 일부 스크롤 요소의 표시에 지연이 있는 경우
 
 ```css
