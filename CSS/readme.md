@@ -233,8 +233,10 @@ https://brunch.co.kr/@chulhochoiucj0/8
 ### 디바이스의 크기에 따라 배율을 조절하는 방법
 
 ```html
-<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0>
+<meta id="viewport" name="viewport" content="width=device-width,
+initial-scale=1.0>
 ```
+
 ```javascript
     <script>
       let sw = screen.width;
@@ -255,3 +257,7 @@ https://brunch.co.kr/@chulhochoiucj0/8
 
 사용하니 잘 되는데.. 페이지 새로고침이 없는 SPA에서 사용하면 최초페이지 로딩시에 적용된 스케일에서 바뀌지 않는 문제가 있었다.
 app.component.ts에서 아래와 같은 방법으로 routing을 감시하여 처리함
+
+### Scrolling tabs HTML and CSS only
+
+https://stackoverflow.com/questions/42912793/scrolling-tabs-html-and-css-only
