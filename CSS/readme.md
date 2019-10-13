@@ -261,3 +261,7 @@ app.component.ts에서 아래와 같은 방법으로 routing을 감시하여 처
 ### Scrolling tabs HTML and CSS only
 
 https://stackoverflow.com/questions/42912793/scrolling-tabs-html-and-css-only
+
+### How TO - Tabs
+
+https://www.w3schools.com/howto/howto_js_tabs.asp
