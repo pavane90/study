@@ -6,4 +6,4 @@
 
 # Today I Learned
 
-- [Drag and Drop] 드래그 앤 드롭 UI 기획
+- Angular
