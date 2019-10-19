@@ -67,3 +67,7 @@ initial-scale={{scale}}>
 ### Route transition animations
 
 https://angular.io/guide/route-animations
+
+### Angular 데이터 바인딩 III (ngModel)
+
+https://dschci.tistory.com/84

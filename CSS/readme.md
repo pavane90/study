@@ -265,3 +265,11 @@ https://stackoverflow.com/questions/42912793/scrolling-tabs-html-and-css-only
 ### How TO - Tabs
 
 https://www.w3schools.com/howto/howto_js_tabs.asp
+
+### 모바일 단말에서 이미지 드래그 & 메뉴호출방지
+
+```css
+img{
+  pointer-events : none;
+}
+```

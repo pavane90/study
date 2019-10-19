@@ -62,3 +62,7 @@ https://backlog.com/git-tutorial/kr/stepup/stepup4_1.html
 https://ytnobody.net/2017/12/16/vscode-gitlens%E3%81%AF%E3%81%84%E3%81%84%E3%81%9E%E3%81%A8%E3%81%84%E3%81%86%E8%A9%B1/
 
 이클립스를 버리고 VSCode를 쓸 이유는 이거 하나로 충분한 것 같다.
+
+## Git で変更を patch ファイルにする / patch コマンドで適用する
+
+https://qiita.com/sea_mountain/items/7d9c812e68a26bd1a292
