@@ -7,13 +7,13 @@
 ## 도서
 
 - Angular Essentials  
-https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=153742929
+  https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=153742929
 
 - 앵귤러 첫걸음  
-https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=110012566
+  https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=110012566
 
 - Angular Development with TypeScript  
-https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=110998774
+  https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=110998774
 
 ### How to call a function on every route change in angular2
 
@@ -23,7 +23,8 @@ https://stackoverflow.com/questions/42453375/how-to-call-a-function-on-every-rou
 하지만 스마트폰 전용 페이지의 경우에는 1.0을 사용한다.
 
 ```html
-<meta id="viewport" name="viewport" content="width=device-width, initial-scale={{scale}}>
+<meta id="viewport" name="viewport" content="width=device-width,
+initial-scale={{scale}}>
 ```
 
 ```ts
@@ -62,3 +63,7 @@ https://stackoverflow.com/questions/42453375/how-to-call-a-function-on-every-rou
     }
   }
 ```
+
+### Route transition animations
+
+https://angular.io/guide/route-animations
