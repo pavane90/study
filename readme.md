@@ -6,4 +6,4 @@
 
 # Today I Learned
 
-- Route transition animations
+- Hierarchical Routing Animations in Angular

@@ -71,3 +71,7 @@ https://angular.io/guide/route-animations
 ### Angular 데이터 바인딩 III (ngModel)
 
 https://dschci.tistory.com/84
+
+### Hierarchical Routing Animations in Angular
+
+https://www.youtube.com/watch?v=yPKSpuso6K0
