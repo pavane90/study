@@ -66,3 +66,8 @@ https://ytnobody.net/2017/12/16/vscode-gitlens%E3%81%AF%E3%81%84%E3%81%84%E3%81%
 ## Git で変更を patch ファイルにする / patch コマンドで適用する
 
 https://qiita.com/sea_mountain/items/7d9c812e68a26bd1a292
+
+
+### GitLabでブランチ切ってcommitしてマージリクエストする
+
+https://www.crz33.com/software/gitlab/gitlab_merge_request

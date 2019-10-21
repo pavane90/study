@@ -6,4 +6,5 @@
 
 # Today I Learned
 
-- Hierarchical Routing Animations in Angular
+- GitLabでブランチ切ってcommitしてマージリクエストする
+
