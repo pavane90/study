@@ -273,3 +273,7 @@ img{
   pointer-events : none;
 }
 ```
+
+### c3.js resize
+
+https://c3js.org/samples/api_resize.html
