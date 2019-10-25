@@ -6,5 +6,4 @@
 
 # Today I Learned
 
-- GitLabでブランチ切ってcommitしてマージリクエストする
-
+- Improving Angular *ngFor Performance Through trackBy

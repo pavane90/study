@@ -75,3 +75,7 @@ https://dschci.tistory.com/84
 ### Hierarchical Routing Animations in Angular
 
 https://www.youtube.com/watch?v=yPKSpuso6K0
+
+### Improving Angular *ngFor Performance Through trackBy
+
+https://medium.com/better-programming/improving-angular-ngfor-performance-through-trackby-ae4cf943b878
