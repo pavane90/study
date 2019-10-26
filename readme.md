@@ -6,4 +6,4 @@
 
 # Today I Learned
 
-- Hierarchical Routing Animations in Angular
+- Catalysing your Angular 4 app Performance

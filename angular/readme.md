@@ -75,3 +75,21 @@ https://dschci.tistory.com/84
 ### Hierarchical Routing Animations in Angular
 
 https://www.youtube.com/watch?v=yPKSpuso6K0
+
+### Catalysing your Angular 4 app Performance
+
+https://medium.com/paramsingh-66174/catalysing-your-angular-4-app-performance-9211979075f6
+
+> A very prime way to optimise your loops is to keep track of \*ngFor them using the trackBy property.
+
+```html
+<ul>
+  <li *ngFor="let song of songs; trackBy: trackSongByFn">{{song.name}}</li>
+</ul>
+```
+
+> And then you can create a trackBy function in your ts file like this:
+
+```ts
+trackByFn(index, song) { return index; // or song.id }
+```
