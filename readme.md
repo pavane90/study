@@ -6,4 +6,4 @@
 
 # Today I Learned
 
-- Catalysing your Angular 4 app Performance
+- How to use Virtual Scroll in Angular to boost the website performance

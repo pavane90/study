@@ -93,3 +93,7 @@ https://medium.com/paramsingh-66174/catalysing-your-angular-4-app-performance-92
 ```ts
 trackByFn(index, song) { return index; // or song.id }
 ```
+
+### How to use Virtual Scroll in Angular to boost the website performance
+
+https://medium.com/wineofbits/how-to-use-virtual-scroll-in-angular-to-boost-the-website-performance-ed2d543be41c
