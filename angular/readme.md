@@ -97,3 +97,7 @@ trackByFn(index, song) { return index; // or song.id }
 ### How to use Virtual Scroll in Angular to boost the website performance
 
 https://medium.com/wineofbits/how-to-use-virtual-scroll-in-angular-to-boost-the-website-performance-ed2d543be41c
+
+### Improving Angular \*ngFor Performance Through trackBy
+
+https://medium.com/better-programming/improving-angular-ngfor-performance-through-trackby-ae4cf943b878
