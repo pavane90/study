@@ -285,3 +285,24 @@ http://mwultong.blogspot.com/2007/02/html-css-links-without-underline.html
 ### !importantによる優先度の変更
 
 http://www.webword.jp/cssguide/priority/index3.html
+
+### ol li에서 첫글자가 깨지는 현상
+
+iOS에서 ol태그속 li의 첫글자만 깨져서 표시되는 원인불명의 버그가있다.
+모든 문자열이 그런건 아니고 일부가 깨지는데 pre-wrap 태그를 사용하면 고칠 수 있다.
+
+```html
+  <ol start=1>
+    <li class="text-justify">hogehoge</li>
+  </ol>
+```
+
+상태에서 아래와같이 고쳐준다.
+
+```html
+  <ol start=1>
+    <li class="text-justify pre-wrap">hogehoge</li>
+  </ol>
+```
+
+iOS가 아니면 일어나지 않다보니 알아채는게 어렵다.
