@@ -269,8 +269,8 @@ https://www.w3schools.com/howto/howto_js_tabs.asp
 ### 모바일 단말에서 이미지 드래그 & 메뉴호출방지
 
 ```css
-img{
-  pointer-events : none;
+img {
+  pointer-events: none;
 }
 ```
 
@@ -282,7 +282,7 @@ https://c3js.org/samples/api_resize.html
 
 http://mwultong.blogspot.com/2007/02/html-css-links-without-underline.html
 
-### !importantによる優先度の変更
+### !important による優先度の変更
 
 http://www.webword.jp/cssguide/priority/index3.html
 
@@ -292,17 +292,21 @@ iOS에서 ol태그속 li의 첫글자만 깨져서 표시되는 원인불명의 
 모든 문자열이 그런건 아니고 일부가 깨지는데 pre-wrap 태그를 사용하면 고칠 수 있다.
 
 ```html
-  <ol start=1>
-    <li class="text-justify">hogehoge</li>
-  </ol>
+<ol start="1">
+  <li class="text-justify">hogehoge</li>
+</ol>
 ```
 
 상태에서 아래와같이 고쳐준다.
 
 ```html
-  <ol start=1>
-    <li class="text-justify pre-wrap">hogehoge</li>
-  </ol>
+<ol start="1">
+  <li class="text-justify pre-wrap">hogehoge</li>
+</ol>
 ```
 
 iOS가 아니면 일어나지 않다보니 알아채는게 어렵다.
+
+### CSS Transform3D + Transition 활용 샘플
+
+https://velog.io/@chading/CSS-Transform3D-Transition-%ED%99%9C%EC%9A%A9-%EC%83%98%ED%94%8C-bujydzfj9f
