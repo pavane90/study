@@ -6,4 +6,4 @@
 
 # Today I Learned
 
-- CSS Transform3D + Transition 활용 샘플
+- CSS 3D Transforms
