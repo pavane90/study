@@ -6,4 +6,4 @@
 
 # Today I Learned
 
-- CSS Animation : 3D Transform
+- CSS 3D 애니메이션
