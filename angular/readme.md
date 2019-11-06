@@ -101,3 +101,7 @@ https://medium.com/wineofbits/how-to-use-virtual-scroll-in-angular-to-boost-the-
 ### Improving Angular \*ngFor Performance Through trackBy
 
 https://medium.com/better-programming/improving-angular-ngfor-performance-through-trackby-ae4cf943b878
+
+### 상대경로의 보안문제
+
+../로 경로를 찾아가게 하면 일부 단말기에서 400에러를 내며 표시하지 못하는 경우가 있다.
