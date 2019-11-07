@@ -326,3 +326,14 @@ http://www.beautifulcss.com/archives/2270
 ### CSS 3D 애니메이션?
 
 https://codeday.me/ko/qa/20190725/1129048.html
+
+### iOS에서 linear-gradient가 제대로 표시되지 않는 문제
+
+아래와 같은 형식으로 대응
+
+```css
+background: url('imagefile') , -moz-linear-gradient(top, #fafafa, #fafafa) ;
+background: url('imagefile') , -o-linear-gradient(top, #fafafa, #fafafa) ;
+background: url('imagefile') , -webkit-linear-gradient(top, #fafafa, #fafafa) ;
+background: url('imagefile') , linear-gradient(top, #fafafa, #fafafa) ;
+```

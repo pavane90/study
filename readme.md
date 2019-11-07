@@ -6,4 +6,4 @@
 
 # Today I Learned
 
-- CSS 3D 애니메이션
+- iOS에서 linear-gradient가 제대로 표시되지 않는 문제
