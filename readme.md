@@ -53,6 +53,7 @@
    2.1 [nodejs memory leak](node.js\nodejs_memory_leak.md)  
    2.2 [nodejs update](node.js\nodejs_update.md)  
    2.3 [package.json の作成](node.js\package.jsonの作成.md)
+3. [postgreSQL](postgreSQL\readme.md)
 
 ## 2.4 Others
 
@@ -64,3 +65,5 @@
 5. [Infrastructure](infrastructure\readme.md)
 6. [jMeter](jmeter\readme.md)
 7. [Linux](linux\readme.md)
+8. [Google reCAPTCHA](reCAPTCHA\readme.md)
+9. [regeX](regex\readme.md)
