@@ -34,6 +34,9 @@
    5.3 SVG percentage circle with css keyframes animation  
    5.4 Avoid resizing CSS background image with mobile keyboard
 6. [HTML](html\readme.md)
+7. [Smarty](smarty\readme.md)
+8. [ApacheStruts](struts\readme.md)
+9. [Vue.js](vue\readme.md)
 
 ## 2.3 Mobile Application
 
@@ -54,6 +57,8 @@
    2.2 [nodejs update](node.js\nodejs_update.md)  
    2.3 [package.json の作成](node.js\package.jsonの作成.md)
 3. [postgreSQL](postgreSQL\readme.md)
+4. [SSH](ssh\readme.md)
+5. [WAF](WAF\readme.md)
 
 ## 2.4 Others
 
@@ -67,3 +72,6 @@
 7. [Linux](linux\readme.md)
 8. [Google reCAPTCHA](reCAPTCHA\readme.md)
 9. [regeX](regex\readme.md)
+10. [serverless](serverless\readme.md)
+11. [OracleVirtualbox](virtualBox\readme.md)
+12. [VSCode](vscode\readme.md)
