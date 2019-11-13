@@ -337,3 +337,7 @@ background: url('imagefile') , -o-linear-gradient(top, #fafafa, #fafafa) ;
 background: url('imagefile') , -webkit-linear-gradient(top, #fafafa, #fafafa) ;
 background: url('imagefile') , linear-gradient(top, #fafafa, #fafafa) ;
 ```
+
+### Z-Index를 올려줘도 상위로 안올라 오는 문제
+
+https://tost.tistory.com/87
