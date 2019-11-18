@@ -113,3 +113,7 @@ http://jeonghwan-kim.github.io/vue/2017/03/29/is-vue-better-than-angular-react.h
 ### ’==’와 ‘===’의 차이
 
 http://guswnsxodlf.github.io/javascript-equal-operator
+
+### 앵귤러 부트스트랩
+
+https://angular.kr/guide/bootstrapping
