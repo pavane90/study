@@ -117,3 +117,69 @@ http://guswnsxodlf.github.io/javascript-equal-operator
 ### 앵귤러 부트스트랩
 
 https://angular.kr/guide/bootstrapping
+
+### Angular でアコーディオンを実装
+
+https://qiita.com/shirokuman/items/9859f7ef9bc12230cd77
+
+> app.module.ts
+```typescript
+// import for animations
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+@NgModule({
+  imports: [
+    BrowserAnimationsModule,
+  ],
+})
+```
+  
+> accordion.html
+```html
+<!-- アコーディオンを開く閉じるのボタン -->
+<div class="pointerCursor" (click)="onAccordion($event)">
+  <i [ngClass]="showDetail ? 'fa fa-minus-circle' : 'fa fa-plus-circle'"></i>
+      &nbsp;詳しい情報を{{showDetail ? '隠す' : '表示する'}}
+</div>
+
+<!-- アコーディオンの中身 -->
+<div *ngIf="showDetail" [@accordion]>
+    〜アコーディオンで表示したい内容〜
+</div>
+```
+  
+> accordion.component.ts
+```typescript
+import { trigger, style, animate, transition } from '@angular/animations';
+
+@Component({
+  selector: 'sample-app',
+  templateUrl: './accordion.html',
+  styleUrls: ['./accordionStyle.scss'],
+  animations: [
+    trigger('accordion', [
+      transition(':enter', [
+        style({ height: '0', opacity: 0, overflow: 'hidden' }),
+        animate('500ms', style({ height: '*', opacity: 1 }))
+      ]),
+      transition(':leave', [
+        style({ height: '*', opacity: '1', overflow: 'hidden' }),
+        animate('500ms', style({ height: '0' }))
+      ])
+    ])
+  ],
+})
+
+export class AccordionTest {
+
+  public showDetail: boolean;
+
+  constructor(){
+  }
+
+  // アコーディオン開閉時に呼ばれるイベント
+  onAccordion($event) {
+    this.showDetail = !this.showDetail;
+  }
+}
+```
