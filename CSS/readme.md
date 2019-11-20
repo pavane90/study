@@ -341,3 +341,7 @@ background: url('imagefile') , linear-gradient(top, #fafafa, #fafafa) ;
 ### Z-Index를 올려줘도 상위로 안올라 오는 문제
 
 https://tost.tistory.com/87
+
+### CSS MotionBlur (Webkit)
+
+https://codepen.io/joshbader/pen/fFLno
