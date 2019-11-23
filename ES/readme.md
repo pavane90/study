@@ -11,3 +11,5 @@ https://caniuse.com/#search=include
 https://v8.dev/features/dynamic-import
 
 ### Optional catch binding
+
+https://v8.dev/features/optional-catch-binding
