@@ -9,3 +9,5 @@ https://caniuse.com/#search=include
 ### Dynamic import()
 
 https://v8.dev/features/dynamic-import
+
+### Optional catch binding
