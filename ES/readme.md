@@ -1,3 +1,7 @@
+# Vanila JS
+
+http://vanilla-js.com/
+
 ### stuff by kangax
 
 http://kangax.github.io/
