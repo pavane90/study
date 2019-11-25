@@ -345,3 +345,11 @@ https://tost.tistory.com/87
 ### CSS MotionBlur (Webkit)
 
 https://codepen.io/joshbader/pen/fFLno
+
+### Bootstrap dropdown-menu-center - JSFiddle
+
+https://jsfiddle.net/VovanR/2ao5b22h/
+
+### Adding Tips to Bootstrap 4 Dropdown Menus
+
+https://www.abeautifulsite.net/adding-tips-to-bootstrap-4-dropdown-menus
