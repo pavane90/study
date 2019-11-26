@@ -183,3 +183,7 @@ export class AccordionTest {
   }
 }
 ```
+
+### 프론트엔드 개발자를 위한 가이드 문서 모음 (NO. 10)
+
+https://serisepomme.tistory.com/entry/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EA%B0%80%EC%9D%B4%EB%93%9C-%EB%AC%B8%EC%84%9C-%EB%AA%A8%EC%9D%8C-NO-10
