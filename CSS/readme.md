@@ -353,3 +353,8 @@ https://jsfiddle.net/VovanR/2ao5b22h/
 ### Adding Tips to Bootstrap 4 Dropdown Menus
 
 https://www.abeautifulsite.net/adding-tips-to-bootstrap-4-dropdown-menus
+
+
+### Pure CSS toggle buttons
+
+https://codepen.io/mallendeo/pen/eLIiG
