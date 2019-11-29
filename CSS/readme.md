@@ -358,3 +358,7 @@ https://www.abeautifulsite.net/adding-tips-to-bootstrap-4-dropdown-menus
 ### Pure CSS toggle buttons
 
 https://codepen.io/mallendeo/pen/eLIiG
+
+### CSS를 최적화하고 파일크기를 줄이는 15가지 방법
+
+http://egloos.zum.com/seye2/v/2428232
