@@ -10,3 +10,13 @@
 |セル22
 |セル23
 |===
+
+[plantuml]
+----
+class Animal {
+  run()
+}
+
+class Cat extends Animal {
+}
+----
