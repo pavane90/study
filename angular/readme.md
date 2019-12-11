@@ -123,6 +123,7 @@ https://angular.kr/guide/bootstrapping
 https://qiita.com/shirokuman/items/9859f7ef9bc12230cd77
 
 > app.module.ts
+
 ```typescript
 // import for animations
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -133,49 +134,48 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   ],
 })
 ```
-  
+
 > accordion.html
+
 ```html
 <!-- アコーディオンを開く閉じるのボタン -->
 <div class="pointerCursor" (click)="onAccordion($event)">
   <i [ngClass]="showDetail ? 'fa fa-minus-circle' : 'fa fa-plus-circle'"></i>
-      &nbsp;詳しい情報を{{showDetail ? '隠す' : '表示する'}}
+  &nbsp;詳しい情報を{{showDetail ? '隠す' : '表示する'}}
 </div>
 
 <!-- アコーディオンの中身 -->
 <div *ngIf="showDetail" [@accordion]>
-    〜アコーディオンで表示したい内容〜
+  〜アコーディオンで表示したい内容〜
 </div>
 ```
-  
+
 > accordion.component.ts
+
 ```typescript
-import { trigger, style, animate, transition } from '@angular/animations';
+import { trigger, style, animate, transition } from "@angular/animations";
 
 @Component({
-  selector: 'sample-app',
-  templateUrl: './accordion.html',
-  styleUrls: ['./accordionStyle.scss'],
+  selector: "sample-app",
+  templateUrl: "./accordion.html",
+  styleUrls: ["./accordionStyle.scss"],
   animations: [
-    trigger('accordion', [
-      transition(':enter', [
-        style({ height: '0', opacity: 0, overflow: 'hidden' }),
-        animate('500ms', style({ height: '*', opacity: 1 }))
+    trigger("accordion", [
+      transition(":enter", [
+        style({ height: "0", opacity: 0, overflow: "hidden" }),
+        animate("500ms", style({ height: "*", opacity: 1 }))
       ]),
-      transition(':leave', [
-        style({ height: '*', opacity: '1', overflow: 'hidden' }),
-        animate('500ms', style({ height: '0' }))
+      transition(":leave", [
+        style({ height: "*", opacity: "1", overflow: "hidden" }),
+        animate("500ms", style({ height: "0" }))
       ])
     ])
-  ],
+  ]
 })
-
 export class AccordionTest {
-
   public showDetail: boolean;
 
-  constructor(){
-  }
+  constructor() {}
 
   // アコーディオン開閉時に呼ばれるイベント
   onAccordion($event) {
@@ -191,3 +191,7 @@ https://serisepomme.tistory.com/entry/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93
 ### TypeScript 함수 오버로딩
 
 https://codeday.me/ko/qa/20190313/22279.html
+
+### 11 Angular Component Libraries You Should Know In 2019
+
+https://blog.bitsrc.io/11-angular-component-libraries-you-should-know-in-2018-e9f9c9d544ff

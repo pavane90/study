@@ -332,10 +332,10 @@ https://codeday.me/ko/qa/20190725/1129048.html
 아래와 같은 형식으로 대응
 
 ```css
-background: url('imagefile') , -moz-linear-gradient(top, #fafafa, #fafafa) ;
-background: url('imagefile') , -o-linear-gradient(top, #fafafa, #fafafa) ;
-background: url('imagefile') , -webkit-linear-gradient(top, #fafafa, #fafafa) ;
-background: url('imagefile') , linear-gradient(top, #fafafa, #fafafa) ;
+background: url("imagefile"), -moz-linear-gradient(top, #fafafa, #fafafa);
+background: url("imagefile"), -o-linear-gradient(top, #fafafa, #fafafa);
+background: url("imagefile"), -webkit-linear-gradient(top, #fafafa, #fafafa);
+background: url("imagefile"), linear-gradient(top, #fafafa, #fafafa);
 ```
 
 ### Z-Index를 올려줘도 상위로 안올라 오는 문제
@@ -354,7 +354,6 @@ https://jsfiddle.net/VovanR/2ao5b22h/
 
 https://www.abeautifulsite.net/adding-tips-to-bootstrap-4-dropdown-menus
 
-
 ### Pure CSS toggle buttons
 
 https://codepen.io/mallendeo/pen/eLIiG
@@ -362,3 +361,7 @@ https://codepen.io/mallendeo/pen/eLIiG
 ### CSS를 최적화하고 파일크기를 줄이는 15가지 방법
 
 http://egloos.zum.com/seye2/v/2428232
+
+### tailwind css
+
+https://tailwindcss.com/
