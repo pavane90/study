@@ -195,3 +195,11 @@ https://codeday.me/ko/qa/20190313/22279.html
 ### 11 Angular Component Libraries You Should Know In 2019
 
 https://blog.bitsrc.io/11-angular-component-libraries-you-should-know-in-2018-e9f9c9d544ff
+
+### Flux로의 카툰 안내서
+
+http://bestalign.github.io/2015/10/06/cartoon-guide-to-flux/
+
+### Redux로의 카툰 안내서
+
+http://bestalign.github.io/2015/10/26/cartoon-intro-to-redux/
