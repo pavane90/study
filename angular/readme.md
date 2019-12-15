@@ -207,3 +207,7 @@ http://bestalign.github.io/2015/10/26/cartoon-intro-to-redux/
 ### Context API가 Redux를 대체할 수 있을까요?
 
 https://medium.com/lunit-engineering/context-api%EA%B0%80-redux%EB%A5%BC-%EB%8C%80%EC%B2%B4%ED%95%A0-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C%EC%9A%94-76a6209b369b
+
+### 10 Angular and TypeScript Projects to Take You From Zero to Hero
+
+https://blog.codewithdan.com/10-angular-and-typescript-projects-to-take-you-from-zero-to-hero/
