@@ -211,3 +211,7 @@ https://medium.com/lunit-engineering/context-api%EA%B0%80-redux%EB%A5%BC-%EB%8C%
 ### 10 Angular and TypeScript Projects to Take You From Zero to Hero
 
 https://blog.codewithdan.com/10-angular-and-typescript-projects-to-take-you-from-zero-to-hero/
+
+### 9 Extremely Useful HTML Tricks
+
+https://dev.to/razgandeanu/9-extremely-useful-html-tricks-463a

@@ -11,12 +11,12 @@
 |セル23
 |===
 
-[plantuml]
+[plantuml, diag-sequence-sample]
 ----
-class Animal {
-  run()
-}
-
-class Cat extends Animal {
-}
+@startuml
+ClassA -> ClassB: Call
+ClassB -> ClassC: Call
+ClassC --> ClassB: Response
+ClassB --> ClassA: Response
+@enduml
 ----
