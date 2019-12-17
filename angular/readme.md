@@ -212,6 +212,12 @@ https://medium.com/lunit-engineering/context-api%EA%B0%80-redux%EB%A5%BC-%EB%8C%
 
 https://blog.codewithdan.com/10-angular-and-typescript-projects-to-take-you-from-zero-to-hero/
 
+<<<<<<< HEAD
 ### Akita
 
 https://netbasal.gitbook.io/akita/
+=======
+### 9 Extremely Useful HTML Tricks
+
+https://dev.to/razgandeanu/9-extremely-useful-html-tricks-463a
+>>>>>>> 4766d202fbe80fcf65a0bf1398c7947ee3e00031
