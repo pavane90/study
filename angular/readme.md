@@ -215,7 +215,3 @@ https://blog.codewithdan.com/10-angular-and-typescript-projects-to-take-you-from
 ### Akita
 
 https://netbasal.gitbook.io/akita/
-
-### 9 Extremely Useful HTML Tricks
-
-https://dev.to/razgandeanu/9-extremely-useful-html-tricks-463a
