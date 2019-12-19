@@ -215,3 +215,7 @@ https://blog.codewithdan.com/10-angular-and-typescript-projects-to-take-you-from
 ### Akita
 
 https://netbasal.gitbook.io/akita/
+
+### 커스텀 유효성 검사기
+
+https://angular.kr/guide/form-validation#%EC%BB%A4%EC%8A%A4%ED%85%80-%EC%9C%A0%ED%9A%A8%EC%84%B1-%EA%B2%80%EC%82%AC%EA%B8%B0
