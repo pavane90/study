@@ -232,3 +232,7 @@ for (const i in this.form.controls) {
 ### Introducing Akita: A New State Management Pattern for Angular Applications
 
 https://netbasal.com/introducing-akita-a-new-state-management-pattern-for-angular-applications-f2f0fab5a8
+
+### rxJS
+
+https://rxjs-dev.firebaseapp.com/guide/overview
