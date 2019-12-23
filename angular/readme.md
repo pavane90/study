@@ -236,3 +236,9 @@ https://netbasal.com/introducing-akita-a-new-state-management-pattern-for-angula
 ### rxJS
 
 https://rxjs-dev.firebaseapp.com/guide/overview
+
+
+### 리액티브 프로그래밍
+
+https://poiemaweb.com/angular-rxjs
+
