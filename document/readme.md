@@ -5,3 +5,8 @@ https://medium.com/@mklab.co/%EC%9E%91%EC%84%B1%EB%B2%95-%ED%99%94%EB%A9%B4%EC%8
 ### [Drag and Drop] 드래그 앤 드롭 UI 기획
 
 https://miaow0111.tistory.com/34
+
+
+### 화면설계용어의 종류와 차이점
+
+https://yslab.kr/74
