@@ -237,8 +237,10 @@ https://netbasal.com/introducing-akita-a-new-state-management-pattern-for-angula
 
 https://rxjs-dev.firebaseapp.com/guide/overview
 
-
 ### 리액티브 프로그래밍
 
 https://poiemaweb.com/angular-rxjs
 
+### Angular のシンプルな状態管理ライブラリ Akita について
+
+https://qiita.com/massa142/items/271e7821b17ca59dbc76
