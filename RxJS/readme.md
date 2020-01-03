@@ -137,3 +137,7 @@ export class ObservableEventHttpComponent implements OnInit, OnDestroy {
   }
 }
 ```
+
+### operators
+
+오퍼레이터는 옵저버블을 생성, 변환, 필터링, 에러 처리의 기능을 하는 함수이다. 오퍼레이터는 새로운 옵저버블을 반환하므로 subscribe 메소드에 도달하기 전까지 체이닝을 통해 데이터를 전달할 수 있다.
