@@ -141,3 +141,9 @@ export class ObservableEventHttpComponent implements OnInit, OnDestroy {
 ### operators
 
 오퍼레이터는 옵저버블을 생성, 변환, 필터링, 에러 처리의 기능을 하는 함수이다. 오퍼레이터는 새로운 옵저버블을 반환하므로 subscribe 메소드에 도달하기 전까지 체이닝을 통해 데이터를 전달할 수 있다.
+
+### Subscription
+
+http://sculove.github.io/blog/2017/10/07/rxjsbook4/
+
+> Observable.subscribe의 반환값이다. Subscription 객체는 자원의 해제를 담당한다. 등록된 Observable의 데이터를 더이상 전달 받고 싶지 않을 경우 unsubscribe 메소드를 호출하여 자원을 해제한다.
