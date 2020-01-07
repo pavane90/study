@@ -38,6 +38,7 @@
 8. [ApacheStruts](struts\readme.md)
 9. [Vue.js](vue\readme.md)
 10. [RxJS](RxJS\readme.md)
+11. [ES](ES\readme.md)
 
 ## 2.3 Mobile Application
 
