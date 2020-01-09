@@ -365,3 +365,7 @@ http://egloos.zum.com/seye2/v/2428232
 ### tailwind css
 
 https://tailwindcss.com/
+
+### animate.css
+
+https://daneden.github.io/animate.css/
