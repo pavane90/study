@@ -369,3 +369,20 @@ https://tailwindcss.com/
 ### animate.css
 
 https://daneden.github.io/animate.css/
+
+### Colorpallette 작성예시
+
+```scss
+/* Color palette */
+:root {
+  --primary: #00893f;
+  --neutral-000: #ffffff;
+  --neutral-1000: #000000;
+  --teal: #3992a6;
+  --lightblue: #7eb1c7;
+}
+
+.class {
+  color: var(--lightblue);
+}
+```
