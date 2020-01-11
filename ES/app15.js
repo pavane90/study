@@ -4,3 +4,7 @@ function clickevent() {
   e.keyCode = 13;
   $(document).trigger(e);
 }
+
+object.onkeydown = function() {
+  myScript;
+};
