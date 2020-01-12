@@ -33,3 +33,5 @@ const userFilter = {
 };
 
 const filteredUser = new Proxy(userObj, userFilter); //모든 동작을 userFilter로 가로챌 수 있다.
+
+// https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Iterators_and_Generators
