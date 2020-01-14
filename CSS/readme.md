@@ -40,6 +40,10 @@ https://www.codingfactory.net/10781
 
 https://www.vobour.com/-css-%EB%94%94%EB%B2%84%EA%B9%85-%EC%8B%9C%EA%B0%84%EC%9D%84-%EC%A0%88%EC%95%BD-%ED%95%A0-%EC%88%98%EC%9E%88%EB%8A%94-css-%EB%AA%85%EB%AA%85-%EA%B7%9C%EC%B9%99
 
+### CSS 코드 작성규칙
+
+https://jeonghakhur.gitbooks.io/frontend-coding-convention/css/
+
 ### CSS Transition 활용 TIP (부드러운 움직임)
 
 https://velog.io/@chading/CSS-Transition-%ED%99%9C%EC%9A%A9-TIP-%EB%B6%80%EB%93%9C%EB%9F%AC%EC%9A%B4-%EC%9B%80%EC%A7%81%EC%9E%84
