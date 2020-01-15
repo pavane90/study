@@ -390,3 +390,11 @@ https://daneden.github.io/animate.css/
   color: var(--lightblue);
 }
 ```
+
+### reset.css
+
+https://meyerweb.com/eric/tools/css/reset/
+
+### 코딩 필수 CSS Reset 모음
+
+http://rwdb.kr/%EC%BD%94%EB%94%A9%ED%95%84%EC%88%98css-reset%EB%AA%A8%EC%9D%8C/
