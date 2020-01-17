@@ -252,3 +252,7 @@ https://ng.ant.design/
 ### 앤트 디자인 - 어드민 개발을 위한 프레임웍
 
 http://jeonghwan-kim.github.io/2018/10/13/ant-design-101.html
+
+### 인정 할 수 밖에 없는 ant-design
+
+https://wesias7.tistory.com/83
