@@ -410,3 +410,7 @@ https://codepen.io/rgg/pen/rxLmQm
 ### Flexbox Responsive Form
 
 https://codepen.io/argyleink/pen/LYEegOO
+
+### Multi-Step Nav Patterns
+
+https://codepen.io/cbodanza/pen/LNaepp
