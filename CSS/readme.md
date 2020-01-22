@@ -414,3 +414,7 @@ https://codepen.io/argyleink/pen/LYEegOO
 ### Multi-Step Nav Patterns
 
 https://codepen.io/cbodanza/pen/LNaepp
+
+### grid-column-start
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-start
