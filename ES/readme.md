@@ -21,3 +21,7 @@ https://v8.dev/features/optional-catch-binding
 ### 2020 자바스크립트 트렌드는 어떻게 될까?
 
 https://www.youtube.com/watch?v=YPMARa8Ex58
+
+### state of javascript 2019
+
+https://2019.stateofjs.com/
