@@ -268,3 +268,10 @@ https://angular.io/guide/lifecycle-hooks
 라이프싸이클 함수 실행 순서
 
 > 컴포넌트나 디렉티브가 생성된 후에는 생성자가 제일 먼저 실행됩니다. 그리고 다음 순서에 따라 라이프싸이클 후킹 함수가 실행됩니다:
+
+### ng-zorro mobile
+
+http://ng.mobile.ant.design/#/docs/introduce/en
+
+기능은 ng-zorro쪽이 다양하나 모바일 진화적인 화면을 고려한다면 이쪽을 쓰는게 좋을 듯..  
+ng-zorro는 좁은 화면에서 깨지거나 폭을 초과하는 문제가 있었음
