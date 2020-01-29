@@ -422,3 +422,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-start
 ### [CSS] 페이지로드시 fade in 효과주기
 
 https://kutar37.tistory.com/entry/CSS-%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A1%9C%EB%93%9C%EC%8B%9C-fade-in-%ED%9A%A8%EA%B3%BC%EC%A3%BC%EA%B8%B0
+
+### CSS만으로 가변영역 / 고정영역 Column 레이아웃을 구현하는 방법
+
+http://rwdb.kr/columnlayout/
