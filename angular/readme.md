@@ -260,3 +260,18 @@ https://wesias7.tistory.com/83
 ### React와 Vue에서 똑같은 앱을 만들어보고 그 차이점에 대해 썼다.
 
 https://medium.com/@erwinousy/%EB%82%9C-react%EC%99%80-vue%EC%97%90%EC%84%9C-%EC%99%84%EC%A0%84%ED%9E%88-%EA%B0%99%EC%9D%80-%EC%95%B1%EC%9D%84-%EB%A7%8C%EB%93%A4%EC%97%88%EB%8B%A4-%EC%9D%B4%EA%B2%83%EC%9D%80-%EA%B7%B8-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%B4%EB%8B%A4-5cffcbfe287f
+
+### Lifecycle Hooks
+
+https://angular.io/guide/lifecycle-hooks
+
+라이프싸이클 함수 실행 순서
+
+> 컴포넌트나 디렉티브가 생성된 후에는 생성자가 제일 먼저 실행됩니다. 그리고 다음 순서에 따라 라이프싸이클 후킹 함수가 실행됩니다:
+
+### ng-zorro mobile
+
+http://ng.mobile.ant.design/#/docs/introduce/en
+
+기능은 ng-zorro쪽이 다양하나 모바일 진화적인 화면을 고려한다면 이쪽을 쓰는게 좋을 듯..  
+ng-zorro는 좁은 화면에서 깨지거나 폭을 초과하는 문제가 있었음
