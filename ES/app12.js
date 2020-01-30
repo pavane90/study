@@ -5,7 +5,7 @@ Symbol() 함수는 심볼(symbol) 형식의 값을 반환하는데, 이 심볼�
 
 const hello = Symbol();
 const bye = Symbol();
-//이 두개는 같지않다.
+//이 두개는 같지않다. 각자 다른 주소를 가짐
 
 const superBig = {
   [Symbol("nico")]: {
