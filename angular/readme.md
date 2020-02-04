@@ -275,3 +275,7 @@ http://ng.mobile.ant.design/#/docs/introduce/en
 
 기능은 ng-zorro쪽이 다양하나 모바일 진화적인 화면을 고려한다면 이쪽을 쓰는게 좋을 듯..  
 ng-zorro는 좁은 화면에서 깨지거나 폭을 초과하는 문제가 있었음
+
+### Angular의 의존성 주입 이해하기 – @Inject, @Injectable, 토큰과 프로바이더
+
+https://edykim.com/ko/post/understanding-angular-dependency-injection-inject-injectable-tokens-and-providers/
