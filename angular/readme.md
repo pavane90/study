@@ -279,3 +279,7 @@ ng-zorro는 좁은 화면에서 깨지거나 폭을 초과하는 문제가 있�
 ### Angular의 의존성 주입 이해하기 – @Inject, @Injectable, 토큰과 프로바이더
 
 https://edykim.com/ko/post/understanding-angular-dependency-injection-inject-injectable-tokens-and-providers/
+
+### Manage Your Entities with Akita Like a Boss
+
+https://netbasal.com/manage-your-entities-with-akita-like-a-boss-768732f8d4d1
