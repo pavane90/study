@@ -156,3 +156,11 @@ http://sculove.github.io/blog/2017/10/07/rxjsbook4/
 - 셋째. 원하는 데이터를 받아 처리하는 Observer를 만든다.
 - 넷째. Observable의 subscribe를 통해 Observer를 등록한다.
 - 다섯째. Observable 구독을 정지하고 자원을 해지한다.
+
+
+###  Rxjs 구독을 취소하는 여러가지 방법
+
+https://ddalpange.github.io/2018/11/21/how-to-unsubscibe-in-rxjs/
+
+Angular는 기본적으로 RxJS를 사용합니다. RxJS를 사용할때 스트림을 연 컴포넌트가 없어진다 해도 열린 스트림은 닫히지 않기 때문에 메모리를 계속 먹습니다. 그렇기 때문에 Unsubscribe를 호출하여 스트림을 닫아주어야하는데요. 매번 Unsubscribe를 하기는 너무나 귀찮음으로 스트림 구독을 해제할 수 있는 다양한 방법을 소개합니다.
+참고로 HttpClient, Router 등 앵귤러 내부에서 제공하는 기능들은 따로 Unsubscribe를 하지 않아도 자동으로 구독을 해제합니다.
