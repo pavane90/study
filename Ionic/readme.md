@@ -30,3 +30,8 @@ The iOS Segment design changed drastically from the previous iOS version. Prior 
 ### 아이오닉(Ionic) + 뷰(Vue)
 
 https://ui.toast.com/weekly-pick/ko_20181206/
+
+### Your First Ionic App: Angular
+
+https://ionicframework.com/docs/angular/your-first-app
+
