@@ -71,3 +71,7 @@ https://qiita.com/sea_mountain/items/7d9c812e68a26bd1a292
 ### GitLabでブランチ切ってcommitしてマージリクエストする
 
 https://www.crz33.com/software/gitlab/gitlab_merge_request
+
+### Git 터미널 유저가 사용하면 유용한 기능들 :D
+
+https://bblog.tistory.com/298
