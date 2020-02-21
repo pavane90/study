@@ -21,6 +21,7 @@
 1. [.NET Framework](.net\readme.md)
 2. [C#](C#\readme.md)
 3. [C++](C++\readme.md)
+4. [ES(JavaScript)](ES\readme.md)
 
 ## 2.2 Front-end web development
 
@@ -39,6 +40,9 @@
 9. [Vue.js](vue\readme.md)
 10. [RxJS](RxJS\readme.md)
 11. [ES](ES\readme.md)
+12. [React](React\readme.md)
+13. [GraphQL](GraphQL\readme.md)
+14. [Ionic](Ionic\readme.md)
 
 ## 2.3 Mobile Application
 
