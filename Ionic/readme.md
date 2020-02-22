@@ -41,3 +41,7 @@ https://ionicframework.com/blog/announcing-ionic-5/
 
 Segment
 The iOS Segment design changed drastically from the previous iOS version. Prior to iOS 13, borders and a filled background were used to differentiate between checked and unchecked buttons. With the latest design update, a single indicator is now used to slide between the buttons, checking the one it ends on. This update includes a gesture that can be used to drag the indicator. Below is a comparison between Ionic 4 and Ionic 5.
+
+### ionic framework, 소개 및 프로젝트 생성
+
+https://mingpd.github.io/2019/05/15/develop/ionic-1/
