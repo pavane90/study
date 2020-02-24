@@ -45,3 +45,15 @@ The iOS Segment design changed drastically from the previous iOS version. Prior 
 ### ionic framework, 소개 및 프로젝트 생성
 
 https://mingpd.github.io/2019/05/15/develop/ionic-1/
+
+### Browser Support
+
+https://ionicframework.com/docs/intro/browser-support
+
+|Framework|Android|iOS|
+|------|---|---|
+|Ionic V5|5.0+|11.0+|
+|Ionic V4|4.4+|10.0+|
+
+
+
