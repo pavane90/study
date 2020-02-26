@@ -25,3 +25,17 @@ https://asciidoctor.org/docs/extensions/
 ### RedPen (Document)
 
 http://redpen.cc/docs/latest/index_ja.html
+
+### Asciidoc circled number
+
+```asciidoc
+[source,xml]
+----
+<section>
+  <title>Section Title</title> <!--1-->
+</section>
+----
+<1> The section title is required.
+```
+
+Notice the comment has been replaced with a circled number that cannot be selected (if not using font icons it will be rendered differently and selectable). Now both you and the reader can copy and paste XML source code containing callouts without worrying about errors.
