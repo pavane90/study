@@ -39,3 +39,9 @@ http://redpen.cc/docs/latest/index_ja.html
 ```
 
 Notice the comment has been replaced with a circled number that cannot be selected (if not using font icons it will be rendered differently and selectable). Now both you and the reader can copy and paste XML source code containing callouts without worrying about errors.
+
+### Asciidoc에서 linenums가 안뜨는 문제
+
+Available Source Highlighters
+
+https://asciidoctor.org/docs/user-manual/
