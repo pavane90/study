@@ -50,10 +50,11 @@ https://mingpd.github.io/2019/05/15/develop/ionic-1/
 
 https://ionicframework.com/docs/intro/browser-support
 
-|Framework|Android|iOS|
-|------|---|---|
-|Ionic V5|5.0+|11.0+|
-|Ionic V4|4.4+|10.0+|
+| Framework | Android | iOS   |
+| --------- | ------- | ----- |
+| Ionic V5  | 5.0+    | 11.0+ |
+| Ionic V4  | 4.4+    | 10.0+ |
 
+### Android 5 and 6 do not respect CSS variable
 
-
+https://github.com/ionic-team/ionic/issues/17781
