@@ -290,3 +290,7 @@ https://edykim.com/ko/post/difference-between-angular-constructor-and-ngoninit/
 
 > 차이점은 무엇인가
 > ES6의 constructor메소드 (여기서는 타입스크립트)는 Angular의 기능이 아니라 클래스 자체의 기능이다. constructor가 호출되는 시점은 Angular의 제어 바깥에 있다. 즉, Angular가 컴포넌트를 초기화 했는지 알기에는 적합하지 않은 위치다.
+
+### Pluralsight Angular
+
+https://www.pluralsight.com/paths/angular
