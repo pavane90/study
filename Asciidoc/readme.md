@@ -45,3 +45,9 @@ Notice the comment has been replaced with a circled number that cannot be select
 Available Source Highlighters
 
 https://asciidoctor.org/docs/user-manual/
+
+### HTML to AsciiDoc
+
+HTML화 되어있는 AsciiDoc을 AsciiDoc으로 변환하고 싶을때 쓸 수 있는 툴
+
+https://pandoc.org/
