@@ -51,3 +51,9 @@ https://asciidoctor.org/docs/user-manual/
 HTML화 되어있는 AsciiDoc을 AsciiDoc으로 변환하고 싶을때 쓸 수 있는 툴
 
 https://pandoc.org/
+
+### Migrating to AsciiDoc from MS Word
+
+MS Word에서 AsciiDoc으로 변환하는 방법
+
+https://asciidoctor.org/docs/migrating-from-msword/
