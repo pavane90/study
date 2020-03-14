@@ -58,3 +58,7 @@ https://ionicframework.com/docs/intro/browser-support
 ### Android 5 and 6 do not respect CSS variable
 
 https://github.com/ionic-team/ionic/issues/17781
+
+### Ionic Native App Installation with Ionic CLI and Cordova
+
+https://ionicframework.com/docs/v3/intro/installation/
