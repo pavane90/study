@@ -62,3 +62,7 @@ https://github.com/ionic-team/ionic/issues/17781
 ### Ionic Native App Installation with Ionic CLI and Cordova
 
 https://ionicframework.com/docs/v3/intro/installation/
+
+### svg icon fill color
+
+https://golb.hplar.ch/2018/01/Custom-SVG-icons-in-Ionic.html#ionic-45
