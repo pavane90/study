@@ -426,3 +426,14 @@ https://kutar37.tistory.com/entry/CSS-%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A1%9C%EB%93
 ### CSS만으로 가변영역 / 고정영역 Column 레이아웃을 구현하는 방법
 
 http://rwdb.kr/columnlayout/
+
+### SCSS の変数と、CSS3 の calc()を併用するには
+
+https://qiita.com/mtmtkzm/items/2e3aef1b504ebcde5311
+
+```css
+$var: 300px;
+.box {
+  width: calc(100% - #{$var});
+}
+```
