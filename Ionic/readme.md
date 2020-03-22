@@ -66,3 +66,7 @@ https://ionicframework.com/docs/v3/intro/installation/
 ### svg icon fill color
 
 https://golb.hplar.ch/2018/01/Custom-SVG-icons-in-Ionic.html#ionic-45
+
+### [Ionic]よく見るタブメニューのページを ion-slides で実装する
+
+https://qiita.com/scrpgil/items/8b92a3ffbc52c784ead1
