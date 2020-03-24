@@ -443,3 +443,8 @@ $var: 300px;
 ```css
 border-collapse: separate;
 ```
+
+### convertor
+
+px / em convertor: https://www.w3schools.com/tags/ref_pxtoemconversion.asp
+percent convertor: https://percentagecalculator.net/
