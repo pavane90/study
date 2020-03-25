@@ -14,3 +14,6 @@ https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VwUY
 2. Azure 可用性セット・Azure 可用性ゾーン
 
 可用性セットはデータセンター内のラックやブレードの障害を保護、可用性ゾーンはデータセンターの障害を保護する
+
+- Azure Databricks:Apache Spark ベースの分析サービス
+- Azure Site Recovery:フォールトトレランスを提供
