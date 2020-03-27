@@ -448,3 +448,7 @@ border-collapse: separate;
 
 px / em convertor: https://www.w3schools.com/tags/ref_pxtoemconversion.asp
 percent convertor: https://percentagecalculator.net/
+
+### SCSS/SASS 문법 정리
+
+https://soooprmx.com/archives/7948
