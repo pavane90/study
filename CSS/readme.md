@@ -452,3 +452,7 @@ percent convertor: https://percentagecalculator.net/
 ### SCSS/SASS 문법 정리
 
 https://soooprmx.com/archives/7948
+
+### Pure CSS Accordion
+
+https://codepen.io/raubaca/pen/PZzpVe
