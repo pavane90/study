@@ -456,3 +456,7 @@ https://soooprmx.com/archives/7948
 ### Pure CSS Accordion
 
 https://codepen.io/raubaca/pen/PZzpVe
+
+### CSS triangle generator
+
+http://apps.eky.hk/css-triangle-generator/
