@@ -460,3 +460,7 @@ https://codepen.io/raubaca/pen/PZzpVe
 ### CSS triangle generator
 
 http://apps.eky.hk/css-triangle-generator/
+
+### CSS3 Generator
+
+https://css3generator.com/
