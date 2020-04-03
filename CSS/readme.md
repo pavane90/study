@@ -464,3 +464,20 @@ http://apps.eky.hk/css-triangle-generator/
 ### CSS3 Generator
 
 https://css3generator.com/
+
+### 마진 계산
+
+첫번째 요소와 마지막 요소의 margin을 0으로 지정할땐 이런식으로 활용하면 편할듯..
+
+```css
+@mixin auto-margin {
+  & + &,
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+```
