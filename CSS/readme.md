@@ -481,3 +481,7 @@ https://css3generator.com/
   }
 }
 ```
+
+### Sass Basics
+
+https://sass-lang.com/guide
