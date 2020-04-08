@@ -489,3 +489,11 @@ https://sass-lang.com/guide
 ### A Proof of Concept for Making Sass Faster
 
 https://css-tricks.com/a-proof-of-concept-for-making-sass-faster/
+
+### paddingReset
+
+```css
+[paddingReset] {
+  margin: -필요한 너비;
+}
+```
