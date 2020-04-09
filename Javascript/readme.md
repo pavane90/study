@@ -25,3 +25,7 @@ https://www.youtube.com/watch?v=YPMARa8Ex58
 ### state of javascript 2019
 
 https://2019.stateofjs.com/
+
+### 구조 분해 할당
+
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
