@@ -29,3 +29,27 @@ https://2019.stateofjs.com/
 ### 구조 분해 할당
 
 https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+
+#### 배열 구조 분해
+
+기본 변수 할당
+
+```javascript
+var foo = ["one", "two", "three"];
+
+var [one, two, three] = foo;
+console.log(one); // "one"
+console.log(two); // "two"
+console.log(three); // "three"
+```
+
+선언에서 분리한 할당
+변수의 선언이 분리되어도 구조 분해를 통해 값을 할당할 수 있습니다.
+
+```javascript
+var a, b;
+
+[a, b] = [1, 2];
+console.log(a); // 1
+console.log(b); // 2
+```
