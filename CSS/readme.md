@@ -497,3 +497,23 @@ https://css-tricks.com/a-proof-of-concept-for-making-sass-faster/
   margin: -필요한 너비;
 }
 ```
+
+### margin auto
+
+아래와 같은 방식으로 ref의 margin을 조절할 수 있다.
+
+```css
+@mixin auto-margin-calc($ref) {
+  #{$ref} + #{$ref} {
+    margin-top: 0;
+  }
+
+  #{$reference}:first-child {
+    margin-top: 0;
+  }
+
+  #{$reference}:last-child {
+    margin-bottom: 0;
+  }
+}
+```
