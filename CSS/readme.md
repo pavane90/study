@@ -521,3 +521,30 @@ https://css-tricks.com/a-proof-of-concept-for-making-sass-faster/
 ### 日本語対応！CSS Flexbox のチートシートを作ったので配布します
 
 https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet
+
+### Get the current latitude and longitude of the user's device
+
+```javascript
+<script>
+var x = document.getElementById("demo");
+function getLocation() {
+if (navigator.geolocation) {
+navigator.geolocation.getCurrentPosition(showPosition);
+} else {
+x.innerHTML = "Geolocation is not supported by this browser.";
+}
+}
+function showPosition(position) {
+x.innerHTML = "Latitude: " + position.coords.latitude +
+"<br>Longitude: " + position.coords.longitude;
+}
+</script>
+```
+
+Example explained:
+Check if Geolocation is supported
+If supported, run the getCurrentPosition() method. If not, display a message to the user
+If the getCurrentPosition() method is successful, it returns a coordinates object to the function specified in the parameter ( showPosition )
+The showPosition() function gets the displays the Latitude and Longitude
+The example above is a very basic Geolocation script, with no error handling.
+Reference: HTML5 Geolocation; Geolocation getCurrentPosition() API
