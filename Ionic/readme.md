@@ -74,3 +74,14 @@ https://qiita.com/scrpgil/items/8b92a3ffbc52c784ead1
 ### ion-modal
 
 https://ionicframework.com/jp/docs/api/modal
+
+
+### How to ion-button justify-content?
+
+https://stackoverflow.com/questions/54529692/how-to-ion-button-justify-content
+
+```css
+  .inner-span{
+    margin-left:auto;
+  }
+```
