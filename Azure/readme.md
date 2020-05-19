@@ -25,3 +25,7 @@ https://www.microsoft.com/ja-jp/learning/exam-70-480.aspx
 4. Developing ASP.NET MVC Web Applications
 
 https://www.microsoft.com/en-us/learning/exam-70-486.aspx
+
+You must log events for the application when it is deployed locally and on Azure. You must not deploy additional services.
+
+event log & trace
