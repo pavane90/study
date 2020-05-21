@@ -548,3 +548,5 @@ If the getCurrentPosition() method is successful, it returns a coordinates objec
 The showPosition() function gets the displays the Latitude and Longitude
 The example above is a very basic Geolocation script, with no error handling.
 Reference: HTML5 Geolocation; Geolocation getCurrentPosition() API
+
+https://css-tricks.com/
