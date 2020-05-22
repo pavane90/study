@@ -550,3 +550,21 @@ The example above is a very basic Geolocation script, with no error handling.
 Reference: HTML5 Geolocation; Geolocation getCurrentPosition() API
 
 https://css-tricks.com/
+
+# input file버튼 숨기기
+
+```html
+<input type="file" id="file" accept="image/* "/>
+<label for="file">Upload
+</label>
+```
+
+```css
+
+  [type='file'] {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+
+```
