@@ -29,3 +29,10 @@ https://www.microsoft.com/en-us/learning/exam-70-486.aspx
 You must log events for the application when it is deployed locally and on Azure. You must not deploy additional services.
 
 event log & trace
+
+You are designing an ASP.NET Core MVC application that handles multiple customers. A user may log on to the site to perform activities such as checking balances, performing transactions, and other activities that must be done securely.
+The application must store secure information that is specific to an individual user. The data must be automatically and securely purged when the user logs off.
+You need to save transient information in a secure data store.
+Which data store should you use?
+
+ASP.NET session state
